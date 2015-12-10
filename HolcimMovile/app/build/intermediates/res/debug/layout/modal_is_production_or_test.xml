@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_grey"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/modal_corner"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_select_org_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="@string/select_an_org_title"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/holcim_red"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" >
+
+            <Spinner
+                android:id="@+id/spinner_org"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:dropDownWidth="match_parent"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" >
+
+            <Button
+                android:id="@+id/btn_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/confirm_button"
+                android:minWidth="100dp"
+                android:text="@string/message_button_yes"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_no"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/confirm_button"
+                android:minWidth="100dp"
+                android:text="@string/message_button_no"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/maheshsukumar/AndroidStudioProjects/HolcimMovile/app/src/main/res/layout/modal_is_production_or_test.xml -->

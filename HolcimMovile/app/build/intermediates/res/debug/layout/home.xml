@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button_sync"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/confirm_button"
+            android:text="@string/sync"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_view_plan"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/button_sync"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/confirm_button"
+            android:text="@string/view_plan"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_view_contacts"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/button_view_plan"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/confirm_button"
+            android:text="@string/view_contacts"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_tele_sale"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/button_view_contacts"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/confirm_button"
+            android:text="@string/tele_sale_title"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblversion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/empty"
+            android:textColor="@color/holcim_red"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/linearlayout_footer"
+        layout="@layout/footer" />
+
+</RelativeLayout><!-- From: file:/Users/maheshsukumar/AndroidStudioProjects/HolcimMovile/app/src/main/res/layout/home.xml -->

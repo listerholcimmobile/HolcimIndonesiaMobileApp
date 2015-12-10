@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/text_view_field_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="7dp"
+        android:text="@string/common_content_info"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_field_value"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/text_view_field_name"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="7dp"
+        android:text="@string/common_content_info" />
+
+    <Spinner
+        android:id="@+id/spinner_competitor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/text_view_field_name"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:dropDownWidth="fill_parent"
+        android:spinnerMode="dropdown"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/editText_field_value_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/text_view_field_name"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editText_field_value_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/text_view_field_name"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText_field_value_decimal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/text_view_field_name"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:inputType="numberDecimal" />
+
+    <DatePicker
+        android:id="@+id/datePicker_field_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/text_view_field_name"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5" />
+
+</RelativeLayout><!-- From: file:/Users/maheshsukumar/AndroidStudioProjects/HolcimMovile/app/src/main/res/layout/create_competitor_marketing.xml -->

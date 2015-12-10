@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Holcim Sales Execution</string>
+    <string name="header_app_name">Sales Execution</string>
+    <string name="message_button_ok">OK</string>
+    <string name="message_title_confirm">Confirm</string>
+    <string name="message_title_error">Error</string>
+    <string name="consumer_key">3MVG9e2mBbZnmM6lk8YA8cOgMyxHxysRqKg4sP5Sry5bhGkZpZXCb7Ez0KGMGdDFZe9CchCu.Q20Ws71SzRPn</string>
+    <string name="consumer_secret">4430680915156717853</string>
+    <string name="oAuthUrlProduction">https://login.salesforce.com/services/oauth2/authorize?response_type=token&amp;display=touch&amp;client_id=</string>
+    <string name="oAuthUrlTest">https://test.salesforce.com/services/oauth2/authorize?response_type=token&amp;display=touch&amp;client_id=</string>
+    <string name="oAuthRefreshUrlProduction">https://login.salesforce.com/services/oauth2/token</string>
+    <string name="oAuthRefreshUrlTest">https://test.salesforce.com/services/oauth2/token</string>
+    <string name="callbackUrlProduction">https://login.salesforce.com/services/oauth2/success</string>
+    <string name="callbackUrlTest">https://test.salesforce.com/services/oauth2/success</string>
+    <string name="sdcard_unmounted">Collect cannot access the SD card. Perhaps it is mounted via USB? (Current state: %s)</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="ok">OK</string>
+    <string name="message_title_info">Information</string>
+    <string name="message_no_internet_connection">No internet connection found. Please connect your device to the internet.</string>
+    <string name="you_are_about_to_close">You are about to close</string>
+    <string name="message_session_expired">Session expired. Please log in to continue.</string>
+    <string name="message_button_close">Close</string>
+    <string name="message_button_yes">Yes</string>
+    <string name="message_button_no">No</string>
+    <string name="message_logout_confirmation">Are you sure you want to logout?</string>
+    <string name="message_app_internal_error">Application error. Please try again.</string>
+    <string name="error_edittext">The name of the Folder is empty or too long. Please enter a valid name to update the Folder.</string>
+    <string name="modal_pin_check_title">Please enter your PIN</string>
+    <string name="modal_pin_check_wrong_pin_error">Wrong PIN</string>
+    <string name="signin_pin_introduction">Please set a 4 number pin</string>
+    <string name="confirm_signin_pin_introduction">Confirm your pin</string>
+    <string name="btn_confirm_signin_pin_introduction">Continue</string>
+    <string name="empty_sign_in_pin_modal_error_message">Empty fields.</string>
+    <string name="actionLogNumber">Action Log Number </string>
+    <string name="common_content_info">_</string>
+    <string name="signin_activity_title">Signin</string>
+    <string name="sign_in_pin_modal_error_message">PIN Confirmation does not match PIN.</string>
+    <string name="sign_in_pin_modal_length_error_message">The PIN should have 4 number.</string>
+    <string name="login">Login</string>
+    <string name="current_week">Current Week</string>
+    <string name="empty"></string>
+    <string name="my_visit_plan_activity_title">My Visit Plan List</string>
+    <string name="visit_detail_title">Detail of selected visit date</string>
+    <string name="create_unplanned_visit">Create Unplanned Visit</string>
+    <string name="selected_retailer_title">Selected Retailer</string>
+    <string name="retailer">Retailer</string>
+    <string name="kecamatan">Kecamatan</string>
+    <string name="tier_klb">Tier KLAB</string>
+    <string name="account_info_title">Account Info</string>
+    <string name="prospect_info_title">Prospect Info</string>
+    <string name="last_competitor_market_info">Last Competitor Market Info</string>
+    <string name="contact_info_title">Contact Info</string>
+    <string name="shop_sign_title">Shop Sign</string>
+    <string name="previous_sales_title">HIL Last Market Info</string>
+    <string name="sales_title">Market Info</string>
+    <string name="feedback_title">Feedback</string>
+    <string name="preorder_title">Preorder</string>
+    <string name="feedback_placeholder">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="finish">Finish</string>
+    <string name="finish_se">Finish Sales Execution</string>
+    <string name="ss_inspection">Inspection Date Time</string>
+    <string name="ss_visibility_hil">Visibility of HIL Shop Sign</string>
+    <string name="ss_condition">Condition of Shop Sign</string>
+    <string name="ss_color_condition">Color Condition</string>
+    <string name="ss_remark">Shop Sign Remark</string>
+    <string name="ss_priority">Priority</string>
+    <string name="ss_visibility_competitor">Visibility of Competitor Shop Sign</string>
+    <string name="ss_availability_hil">Availability of HIL Shop Sign</string>
+    <string name="ss_type">Type of Shop Sign</string>
+    <string name="ss_competitor_name">Competitor Name</string>
+    <string name="ss_cleanness">Cleanness Condition</string>
+    <string name="ss_physical">Physical Condition</string>
+    <string name="ss_action">Action</string>
+    <string name="ss_action_status">Action Status</string>
+    <string name="ss_picture">Shop Sign Picture</string>
+    <string name="check_in">Check-in</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Account</item>
+        <item>Contact</item>
+        <item>HIL Last Market Info</item>
+        <item>Last Competitor Market Info</item>
+        <item>Shop Sign</item>
+        <item>Market Info</item>
+        <item>Feedback</item>
+        <item>Preorder</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/nav_account</item>
+        <item>@drawable/nav_contact</item>
+        <item>@drawable/lhm</item>
+        <item>@drawable/lcm</item>
+        <item>@drawable/nav_shopsign</item>
+        <item>@drawable/mi</item>
+        <item>@drawable/nav_feedback</item>
+        <item>@drawable/nav_preorder</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="next_week">Next Week</string>
+    <string name="home">Home</string>
+    <string name="sync">Synchronize</string>
+    <string name="view_plan">View Plan</string>
+    <string name="view_contacts">View Contacts</string>
+
+    <!-- sale execution action status -->
+    <string-array name="sale_execution_action_status">
+        <item></item>
+        <item>In Progress</item>
+        <item>Completed</item>
+    </string-array>
+
+    <!-- sale execution action -->
+    <string-array name="sale_execution_action">
+        <item>None</item>
+        <item>Refurbish/Reposter panel (Perbaikan panel / sticker)</item>
+        <item>Repair stand (Perbaikan tiang)</item>
+        <item>Remove</item>
+    </string-array>
+
+    <!-- confirm -->
+    <string-array name="confirm">
+        <item></item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <!-- sales execution ss competitor name -->
+    <string-array name="sales_execution_ss_competitor_name">
+        <item>Indocement</item>
+        <item>Semen Gresik</item>
+        <item>Semen Merah Putih</item>
+        <item>Semen Padang</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- sales execution status -->
+    <string-array name="sales_execution_status">
+        <item>Planned</item>
+        <item>Canceled</item>
+        <item>Completed</item>
+        <item>Reassigned</item>
+        <item>Rescheduled</item>
+    </string-array>
+
+    <!-- sales execution tier KLAB history -->
+    <string-array name="sales_execution_tier_klab_history">
+        <item>Jaya Wijaya</item>
+        <item>Kerinci</item>
+        <item>Rinjani</item>
+        <item>Semeru</item>
+        <item>Red</item>
+    </string-array>
+
+    <!-- sales execution x desired reward -->
+    <string-array name="sales_execution_x_desired_reward">
+        <item>Reward 1</item>
+        <item>Reward 2</item>
+        <item>Reward 3</item>
+        <item>Reward 4</item>
+    </string-array>
+
+    <!-- sales execution type shop sign -->
+    <string-array name="sales_execution_type_shop_sign">
+        <item></item>
+        <item>Horizontal 3x1 meter, menempel bangunan (mounted on the building)</item>
+        <item>Horizontal pakai tiang, 1 muka (with stand, one sided)</item>
+        <item>Vertical 1x2.5 meter, 1 muka dan 2 muka dengan tiang (with stand, one sided or two sided)</item>
+    </string-array>
+
+    <!-- sale execution cleanness condition -->
+    <string-array name="sale_execution_cleanness_condition">
+        <item></item>
+        <item>Clean</item>
+        <item>Dirty</item>
+    </string-array>
+
+    <!-- sale execution physical condition -->
+    <string-array name="sale_execution_physical_condition">
+        <item></item>
+        <item>Good</item>
+        <item>Damaged</item>
+    </string-array>
+
+    <!-- sale execution priority -->
+    <string-array name="sale_execution_priority">
+        <item></item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+
+    <!-- sale execution color condition -->
+    <string-array name="sale_execution_color_condition">
+        <item></item>
+        <item>Clear &amp; readable (Jelas dan terbaca)</item>
+        <item>Tarnished (pudar)</item>
+    </string-array>
+
+    <!-- sale execution condition shop sign -->
+    <string-array name="sale_execution_condition_shop_sign">
+        <item></item>
+        <item>Need Re-postering</item>
+        <item>Remove</item>
+        <item>Replace</item>
+        <item>Acceptable</item>
+    </string-array>
+
+    <!-- Contact Education Code -->
+    <string-array name="education_code">
+        <item>Doctorate</item>
+        <item>Master Degree</item>
+        <item>Bachelor Degree</item>
+        <item>High School</item>
+        <item>Secondary School</item>
+        <item>Elementary School</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- lead Source -->
+    <string-array name="lead_source">
+        <item>Advertisement</item>
+        <item>Employee Referral</item>
+        <item>External Referral</item>
+        <item>Partner</item>
+        <item>Public Relations</item>
+        <item>Seminar - Internal</item>
+        <item>Seminar - Partner</item>
+        <item>Show</item>
+        <item>Web</item>
+        <item>Word of mouth</item>
+        <item>Other</item>
+        <item>Phone Inquiry</item>
+        <item>Partner Referral</item>
+        <item>Purchased List</item>
+    </string-array>
+
+    <!-- level -->
+    <string-array name="level">
+        <item>Secondary</item>
+        <item>Tertiary</item>
+        <item>Primary</item>
+    </string-array>
+
+    <!-- sex -->
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Unknown</item>
+    </string-array>
+
+    <!-- comment type -->
+    <string-array name="comment_type">
+        <item>Feedback</item>
+        <item>Complaint</item>
+    </string-array>
+
+    <!-- comment category -->
+    <string-array name="comment_category">
+        <item>Technical</item>
+        <item>Sales</item>
+        <item>Marketing</item>
+        <item>Finance</item>
+        <item>Logistic</item>
+        <item>Promotion</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- pic position -->
+    <string-array name="pic_position">
+        <item>- TSO</item>
+        <item>- Coach</item>
+        <item>ASC</item>
+        <item>RSM</item>
+        <item>Head of Retail</item>
+        <item>Logistic</item>
+        <item>Brand</item>
+        <item>Technical Marketing</item>
+        <item>Manufacturing</item>
+        <item>Customer Care</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- retailer type -->
+    <string-array name="retailer_type">
+        <item>Existing for Active Retailer</item>
+        <item>New for Prospect and Inactive Retailer</item>
+    </string-array>
+
+    <!-- retailer segmentation -->
+    <string-array name="retailer_segmentation">
+        <item>Segment for Active Retailers</item>
+        <item>Priority for Inactive and Prospect Retailers</item>
+    </string-array>
+
+    <!-- actionlog status -->
+    <string-array name="action_log_status">
+        <item>Not Started</item>
+        <item>Pending</item>
+        <item>On Track</item>
+        <item>Completed</item>
+    </string-array>
+
+    <!-- prospect account type -->
+    <string-array name="prospect_account_type">
+        <item>Solusi Rumah Retailer</item>
+        <item>Distributor Warehouse</item>
+        <item>Regular Retailer</item>
+        <item>Project</item>
+        <item>CPM</item>
+    </string-array>
+
+    <!-- prospect business entity status -->
+    <string-array name="prospect_business_entity_status">
+        <item></item>
+        <item>CV</item>
+        <item>PD</item>
+        <item>PT</item>
+        <item>TB</item>
+        <item>UD</item>
+        <item>BP</item>
+        <item>PB</item>
+        <item>PK</item>
+    </string-array>
+
+    <!-- prospect country -->
+    <string-array name="prospect_country">
+        <item>Indonesia</item>
+        <item>Thailand</item>
+        <item>Singapore</item>
+        <item>Uruguay</item>
+    </string-array>
+
+    <!-- prospect status -->
+    <string-array name="prospect_status">
+        <item>Active</item>
+        <item>Converted</item>
+        <item>Dropped</item>
+        <item>Error</item>
+    </string-array>
+
+    <!-- prospect retailer terms of payment -->
+    <string-array name="prospect_retailer_terms_of_payment">
+        <item></item>
+        <item>1 - 7 Days</item>
+        <item>8 - 14 Days</item>
+        <item>15 - 30 Days</item>
+        <item>More than 1 month</item>
+    </string-array>
+
+    <!-- prospect experience with lead competitor -->
+    <string-array name="prospect_experience_with_lead_competitor">
+        <item>Good</item>
+        <item>Unsatisfactory</item>
+    </string-array>
+
+    <!-- prospect distributor channel -->
+    <string-array name="prospect_distributor_channel">
+        <item>Application</item>
+        <item>Distributor</item>
+        <item>Direct Customer</item>
+        <item>Holcim Group</item>
+        <item>Transformational</item>
+        <item>Transporter</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- prospect cement supplier -->
+    <string-array name="prospect_first_cement_supplier">
+        <item>Tiga Roda</item>
+        <item>Semen Gresik</item>
+        <item>Semen Merah Putih</item>
+        <item>Semen Padang</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- prospect land status -->
+    <string-array name="prospect_land_status">
+        <item></item>
+        <item>punya</item>
+        <item>sewa</item>
+    </string-array>
+
+    <!-- competitor marketing experience with lead competitor -->
+    <string-array name="comp_mark_experience_lead_competitor">
+        <item>Good</item>
+        <item>Average</item>
+        <item>Unsatisfactory</item>
+    </string-array>
+
+    <!-- competitor marketing reason buying -->
+    <string-array name="comp_mark_reason_buying">
+        <item>Visited by competitor</item>
+        <item>Promotion</item>
+        <item>ToP</item>
+        <item>Price</item>
+        <item>Margin</item>
+        <item>Product availability</item>
+        <item>Ontime delivery</item>
+        <item>Market demand</item>
+        <item>Distributor reputation</item>
+        <item>Salesman attitude</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- pre order product -->
+    <string-array name="pre_order_product">
+        <item></item>
+        <item>40kg sack</item>
+        <item>50kg sack</item>
+    </string-array>
+
+    <!-- pre order unit -->
+    <string-array name="pre_order_unit">
+        <item></item>
+        <item>Bag</item>
+        <item>Ton</item>
+    </string-array>
+
+    <!-- Countries -->
+    <string-array name="countries">
+        <item>Abijan CDI</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Amer.Virgin Is.</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua/Barbads</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bharain</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia-Herz.</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil</item>
+        <item>Brit.Ind.Oc.Ter</item>
+        <item>Brit.Virgin Is.</item>
+        <item>Brunei Dar-es-S</item>
+        <item>Bulgaria</item>
+        <item>Burkina-Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central Afr.Rep</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Islnd</item>
+        <item>Coconut Islands</item>
+        <item>Columbia</item>
+        <item>Comoro</item>
+        <item>CONAKRY</item>
+        <item>Congo</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Rep.</item>
+        <item>Dutch Antilles</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guin</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Faeroe</item>
+        <item>Falkland Islnds</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Frenc.Polynesia</item>
+        <item>French Guinea</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>McDon.Isl</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Ivory Coast</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kirghistan</item>
+        <item>Kiribati</item>
+        <item>Kuwait</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islnds</item>
+        <item>Martinique</item>
+        <item>Mauretania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Minor Outl.Isl.</item>
+        <item>Moldavia</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>N.Mariana Islnd</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue Islands</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Pap. New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islnds</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Rumania</item>
+        <item>Russian Fed.</item>
+        <item>Rwanda</item>
+        <item>S.Tome,Principe</item>
+        <item>Samoa,American</item>
+        <item>San Marino</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>SINGAPORE</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Korea</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>St. Helena</item>
+        <item>St. Lucia</item>
+        <item>St.Pier,Miquel.</item>
+        <item>St. Vincent</item>
+        <item>stateless</item>
+        <item>Sth Sandwich Is</item>
+        <item>Sth Terr. Franc</item>
+        <item>St Kitts&amp;Nevis</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Tadzhikistan</item>
+        <item>Taiwan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Togo</item>
+        <item>Tokelau Islands</item>
+        <item>Tonga</item>
+        <item>Trinidad,Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turksh Caicosin</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Kingdom</item>
+        <item>Uruguay</item>
+        <item>USA</item>
+        <item>Utd.Arab.Emir.</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis,Futuna</item>
+        <item>Western Samoa</item>
+        <item>West Sahara</item>
+        <item>White Russia</item>
+        <item>Yemen</item>
+        <item>Yugoslavia</item>
+        <item>Zaire</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+    <!-- Nationality -->
+    <string-array name="nationality">
+        <item></item>
+        <item>Indonesian</item>
+        <item>Abijan</item>
+        <item>Afghani</item>
+        <item>Albanian</item>
+        <item>Algerian</item>
+        <item>American</item>
+        <item>Andorran</item>
+        <item>Angolan</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antiguan</item>
+        <item>Argentinian</item>
+        <item>Armenian</item>
+        <item>Arubanic</item>
+        <item>Australian</item>
+        <item>Austrian</item>
+        <item>Azerbaijani</item>
+        <item>Bahamas</item>
+        <item>Bangladesh</item>
+        <item>Barbadan</item>
+        <item>Belgian</item>
+        <item>Belizean</item>
+        <item>Beninese</item>
+        <item>Bermudan</item>
+        <item>Bharaini</item>
+        <item>Bhutanese</item>
+        <item>Bolivian</item>
+        <item>Bosnia-Herz.</item>
+        <item>Botswanan</item>
+        <item>Bouvet Island</item>
+        <item>Brazilian</item>
+        <item>Brit.Ind.Oc.Ter</item>
+        <item>British</item>
+        <item>Brunei</item>
+        <item>Bulgarian</item>
+        <item>Burkina-Faso</item>
+        <item>Burundi</item>
+        <item>Cambodian</item>
+        <item>Cameroonian</item>
+        <item>Canadian</item>
+        <item>Cape Verdian</item>
+        <item>Central African</item>
+        <item>Chadian</item>
+        <item>Chilean</item>
+        <item>Chinese</item>
+        <item>Columbian</item>
+        <item>Comoran</item>
+        <item>Congolese</item>
+        <item>Cook Islands</item>
+        <item>Costa Rican</item>
+        <item>Croatian</item>
+        <item>Cuban</item>
+        <item>Cypriot</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Djiboutian</item>
+        <item>Dominican</item>
+        <item>Dutch</item>
+        <item>East Timor</item>
+        <item>Ecuadorian</item>
+        <item>Egyptian</item>
+        <item>Equatorial Guin</item>
+        <item>Eritrea</item>
+        <item>Estonian</item>
+        <item>Ethiopian</item>
+        <item>f. St Kitts/Nev</item>
+        <item>f. Trinidad &amp; T</item>
+        <item>Fijian</item>
+        <item>Filipino</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>Gabonese</item>
+        <item>Gambian</item>
+        <item>Georgian</item>
+        <item>German</item>
+        <item>Ghanian</item>
+        <item>Gibraltar</item>
+        <item>Greek</item>
+        <item>Grenadian</item>
+        <item>Guatemalan</item>
+        <item>Guinea-Bissau</item>
+        <item>Guinean</item>
+        <item>Guyanese</item>
+        <item>Haitian</item>
+        <item>Heard/McDon.Isl</item>
+        <item>Honduran</item>
+        <item>Hong Kong</item>
+        <item>Hungarian</item>
+        <item>Icelandic</item>
+        <item>Indian</item>
+        <item>Indonesian</item>
+        <item>Iranian</item>
+        <item>Iraqi</item>
+        <item>Irish</item>
+        <item>Israeli</item>
+        <item>Italian</item>
+        <item>Ivory Coast</item>
+        <item>Jamaican</item>
+        <item>Japanese</item>
+        <item>Jordanian</item>
+        <item>Kazakh</item>
+        <item>Kenyan</item>
+        <item>Kirghistani</item>
+        <item>Kiribati</item>
+        <item>Korean</item>
+        <item>Kuwaiti</item>
+        <item>Laotian</item>
+        <item>Latvian</item>
+        <item>Lebanese</item>
+        <item>Lesothan</item>
+        <item>Liberian</item>
+        <item>Libyan</item>
+        <item>Liechtenstein</item>
+        <item>Lithuanian</item>
+        <item>Lucian</item>
+        <item>Luxembourgian</item>
+        <item>Macedonian</item>
+        <item>Madagascan</item>
+        <item>Malawian</item>
+        <item>Malaysian</item>
+        <item>Maldivian</item>
+        <item>Malian</item>
+        <item>Maltese</item>
+        <item>Marianian</item>
+        <item>Marshall Islnds</item>
+        <item>Mauretanian</item>
+        <item>Mauritian</item>
+        <item>Mexican</item>
+        <item>Micronesian</item>
+        <item>Minor Outl.Isl.</item>
+        <item>Moldavian</item>
+        <item>Monegasque</item>
+        <item>Mongolian</item>
+        <item>Montserrat</item>
+        <item>Moroccan</item>
+        <item>Mozambican</item>
+        <item>Myanmar</item>
+        <item>Namibian</item>
+        <item>Nauruian</item>
+        <item>Nepalese</item>
+        <item>New Zealand</item>
+        <item>Nicaraguan</item>
+        <item>Nigerian</item>
+        <item>Nigerois</item>
+        <item>Niue Islands</item>
+        <item>Norfolk Island</item>
+        <item>Norwegian</item>
+        <item>Omani</item>
+        <item>Pakistani</item>
+        <item>Palau</item>
+        <item>Panamanian</item>
+        <item>Pap.New Guinea</item>
+        <item>Paraguayan</item>
+        <item>Peruvian</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Qatar</item>
+        <item>Rumanian</item>
+        <item>Russian</item>
+        <item>Rwandan</item>
+        <item>Salvdorean</item>
+        <item>Samoan</item>
+        <item>San Marinese</item>
+        <item>Santomeic</item>
+        <item>Saudi Arabian</item>
+        <item>Senegalese</item>
+        <item>Seychellian</item>
+        <item>Sierra Leonean</item>
+        <item>Singaporean</item>
+        <item>Slovakian</item>
+        <item>Slovenian</item>
+        <item>Solomonese</item>
+        <item>Somalian</item>
+        <item>South African</item>
+        <item>Spanish</item>
+        <item>Sri Lankan</item>
+        <item>St. Helena</item>
+        <item>Stateless</item>
+        <item>Sth Terr. Franc</item>
+        <item>Sudanese</item>
+        <item>Surinamese</item>
+        <item>Swazi</item>
+        <item>Swedish</item>
+        <item>Swiss</item>
+        <item>Syrian</item>
+        <item>Tadzhikistani</item>
+        <item>Taiwanese</item>
+        <item>Tanzanian</item>
+        <item>Thai</item>
+        <item>Togolese</item>
+        <item>Tokelau Islands</item>
+        <item>Tongan</item>
+        <item>Tunisian</item>
+        <item>Turkish</item>
+        <item>Turkmenian</item>
+        <item>Turksh Caicosin</item>
+        <item>Tuvaluese</item>
+        <item>Ugandan</item>
+        <item>Ukrainian</item>
+        <item>Unit.Arab Emir.</item>
+        <item>Uruguayan</item>
+        <item>Uzbekistani</item>
+        <item>Vanuatese</item>
+        <item>Vatican City</item>
+        <item>Venezuelan</item>
+        <item>Vietnamese</item>
+        <item>Vincentian</item>
+        <item>Wallis,Futuna</item>
+        <item>West Saharan</item>
+        <item>White Russia</item>
+        <item>Yemeni</item>
+        <item>Yugoslavian</item>
+        <item>Zairian</item>
+        <item>Zambian</item>
+        <item>Zimbabwean</item>
+    </string-array>
+
+    <string name="create_new_contact">Create New Contact</string>
+    <string name="new_contact">New Contact</string>
+
+    <string-array name="contact_fields">
+        <item>First Name</item>
+        <item>Last Name</item>
+        <item>Gender</item>
+        <item>Birthdate</item>
+        <item>Nationality</item>
+        <item>Phone</item>
+        <item>Mobile</item>
+        <item>Email</item>
+        <item>Extension</item>
+        <item>Fax</item>
+        <item>Mailing Street</item>
+        <item>Mailing City</item>
+        <item>Mailing State Province</item>
+        <item>Mailing Postal Code</item>
+        <item>Mailing Country</item>
+        <item>Mailing Address</item>
+        <item>Account ID</item>
+        <item>Account Name</item>
+    </string-array>
+    <string-array name="gender">
+        <item></item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Unknown</item>
+    </string-array>
+
+    <string name="Picture">Picture</string>
+    <string name="Picture_description">Picture Description</string>
+    <string name="sync_screen_message">This process may take a while depending the amount of data to transfer and internet connection speed. Please do not disconnect from internet and do not exit the application during the process to avoid data integrity damage.</string>
+    <string name="sync_button">Synchronize</string>
+    <string name="sync_title">Synchronize</string>
+    <string name="unplanned_visit">Create Visit Plan</string>
+    <string name="accounts">Accounts</string>
+    <string name="prospects">Prospects</string>
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="mobile_Address">Mobile Address</string>
+    <string name="contacts">Contacts</string>
+    <string name="complain">Is Complaint</string>
+    <string name="status">Status</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+
+    <string-array name="feedback_fields">
+        <item>Complaint</item>
+        <item>Status</item>
+        <item>Category</item>
+        <item>Description</item>
+    </string-array>
+    <string-array name="feedback_status_values">
+        <item></item>
+        <item>Need TSO Review</item>
+        <item>Discussed with TSO</item>
+        <item>Completed</item>
+    </string-array>
+    <string-array name="feedback_category_values">
+        <item></item>
+        <item>Technical</item>
+        <item>Sales</item>
+        <item>Marketing</item>
+        <item>Finance</item>
+        <item>Logistic</item>
+        <item>Promotion</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="title_create_competitor_marketing">Create Market Info</string>
+    <string name="title_competitor_marketing">Market Info</string>
+    <string name="title_create_preorder">Create Preorder</string>
+
+    <string-array name="competitor_marketing_fields">
+        <item>Market Info</item>
+        <item>Supplier Name</item>
+        <item>Buying Price</item>
+        <item>Selling Price</item>
+        <item>Inventory (Tons)</item>
+        <item>Last Month\'s Buying Volume (Tons)</item>
+        <item>Last Month\'s Buying Volume Date</item>
+        <item>Competitor Market Info</item>
+        <item>Competitor Margin with HIL</item>
+        <item>Promotion</item>
+        <item>Promotion Start Date</item>
+        <item>Promotion End Date</item>
+        <item>Program</item>
+        <item>Program Start Date</item>
+        <item>Program End Date</item>
+        <item>Issue</item>
+    </string-array>
+    <string-array name="experience_with_lead_competitors_values">
+        <item></item>
+        <item>Good</item>
+        <item>Average</item>
+        <item>Unsatisfactory</item>
+    </string-array>
+    <string-array name="reason_for_buying_from_lead_competitors_values">
+        <item></item>
+        <item>Visited by competitor</item>
+        <item>Promotion</item>
+        <item>ToP</item>
+        <item>Price</item>
+        <item>Margin</item>
+        <item>Product availability</item>
+        <item>Ontime delivery</item>
+        <item>Market demand</item>
+        <item>Distributor reputation</item>
+        <item>Salesman attitude</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="title_create_feedback">Create Feedback</string>
+
+    <!-- Previous Sales Exec Headers -->
+    <string name="pse_header_buying_price">Last HIL Buying Price</string>
+    <string name="pse_header_selling_price">Last HIL Selling Price</string>
+    <string name="pse_header_inventory">Last HIL Inventory</string>
+    <string name="pse_header_buying_volume">Last HIL Buying Volume</string>
+    <string name="pse_competitor_name">Competitor Name</string>
+    <string name="date_hint">05/07/2014</string>
+
+    <!-- Last Buying Price -->
+    <string name="pse_bp_price_date">Last HIL Buying Price Date</string>
+    <string name="pse_bp_competitor_bp">Competitor Buying Price</string>
+    <string name="pse_bp_hil_price">Last HIL Buying Price</string>
+    <string name="pse_bp_competitor_bp_date">Competitor Buying Price Date</string>
+
+    <!-- Last Selling Price -->
+    <string name="pse_sp_hil_sp_date">Last HIL Selling Price Date</string>
+    <string name="pse_sp_hil_sp">Last HIL Selling Price</string>
+    <string name="pse_sp_comp_sp_date">Competitor Selling Price Date</string>
+    <string name="pse_sp_comp_sp">Competitor Selling Price</string>
+
+    <!-- Last Inventory -->
+    <string name="pse_li_hil_inv_date">Last HIL Inventory Date</string>
+    <string name="pse_li_hil_inv">Last HIL Inventory (Tons)</string>
+    <string name="pse_li_comp_inv">Competitor Inventory</string>
+    <string name="pse_li_comp_inv_date">Competitor Inventory Date</string>
+
+    <!-- Last Buying Volume -->
+    <string name="pse_bv_hil_v">Last HIL Buying Volume (Tons)</string>
+    <string name="pse_bv_comp_v">Competitor Buying Volume</string>
+    <string name="pse_bv_comp_v_date">Competitor Buying Volume Date</string>
+    <string name="pse_bv_note">Note:</string>
+    <string name="pse_bv_note_value">All other fields on this page are taken from last execution transaction</string>
+
+    <!-- Pre-order -->
+    <string name="po_date">Pre-order Date</string>
+    <string name="po_volume">Pre-order Quantity</string>
+    <string name="po_product">Product</string>
+    <string name="po_unit">Unit</string>
+    <string name="po_salesex">Sales Execution</string>
+    <string name="po_reasonForNotOrdering">Reason For Not Ordering:</string>
+    <string name="po_account">Account</string>
+    <string name="po_prospect">Prospect</string>
+    <string name="sync_info_complete">Sync. complete</string>
+    <string name="notification">NOTIFICATION</string>
+    <string name="warning">WARNING</string>
+    <string name="message_warning_go_home">You are going back to the Home screen, all unfinished actions will not be saved.</string>
+    <string name="acc_twentyFourTTruckArmada">24T Truck Armada</string>
+    <string name="acc_x1stDesiredReward">Desired Reward</string>
+    <string name="acc_x1stDesiredRewardPoints">Desired Reward Points</string>
+    <string name="acc_x2ndDesiredReward">2nd Desired Reward</string>
+    <string name="acc_x2ndDesiredRewardPoints">2ndDesired Reward Points</string>
+    <string name="acc_x3rdDesiredReward">3rd Desired Reward</string>
+    <string name="acc_x3rdDesiredRewardPoints">3rd Desired Reward Points</string>
+    <string name="acc_eightTTruckArmada">8T Truck Armada</string>
+    <string name="acc_lastPlannedVisitDate">Last Planned Visit Date</string>
+    <string name="acc_lastActualVisitDate">Last Actual Visit Date</string>
+    <string name="acc_accountType">Account Type</string>
+    <string name="acc_bankAccountBranch1">Bank Account Branch 1</string>
+    <string name="acc_bankAccountBranch2">Bank Account Branch 2</string>
+    <string name="acc_bankAccountBranch3">Bank Account Branch 3</string>
+    <string name="acc_bankAccountName1">Bank Account Name 1</string>
+    <string name="acc_bankAccountName2">Bank Account Name 2</string>
+    <string name="acc_bankAccountName3">Bank Account Name 3</string>
+    <string name="acc_bankAccountNumber1">Bank Account Number 1</string>
+    <string name="acc_bankAccountNumber2">Bank Account Number 2</string>
+    <string name="acc_bankAccountNumber3">Bank Account Number 3</string>
+    <string name="acc_deliveryRemark">Delivery Remark</string>
+    <string name="acc_district">District</string>
+    <string name="acc_email1">Email</string>
+    <string name="acc_extension1">Extension 1</string>
+    <string name="acc_fax1">Fax 1</string>
+    <string name="acc_holcimeterBalance">Holcimeter Balance</string>
+    <string name="acc_holcimeterBonus">Holcimeter Bonus</string>
+    <string name="acc_holcimeterTotal">Holcimeter Total</string>
+    <string name="acc_jelajahHolcimMembership">Jelajah Holcim Membership</string>
+    <string name="acc_badDebt">Bad Debt</string>
+    <string name="acc_JelajahHolcimID">Jelajah Holcim ID</string>
+    <string name="acc_kecamatan">Kecamatan</string>
+    <string name="acc_kelurahan">Kelurahan</string>
+    <string name="acc_keyRetailer">Key Retailer</string>
+    <string name="acc_kota">Kota</string>
+    <string name="acc_landStatus">Land Status</string>
+    <string name="acc_landmarkDescription">Landmark Description</string>
+    <string name="acc_landmarkPicture">Landmark Picture</string>
+    <string name="acc_lastRewardRedeemed">Last Reward Redeemed</string>
+    <string name="acc_latitude">Latitude</string>
+    <string name="acc_longitude">Longitude</string>
+    <string name="acc_mobile1">Mobile 1</string>
+    <string name="acc_numberOfPermanentEmployees">Number of Permanent Employees</string>
+    <string name="acc_phone1">Phone 1</string>
+    <string name="acc_phone2">Phone 2</string>
+    <string name="acc_pickUp2TArmada">Pick-up 2T Armada</string>
+    <string name="acc_postalCode">Postal Code</string>
+    <string name="acc_province">Province</string>
+    <string name="acc_retailerCreditLimit">Retailer Credit Limit</string>
+    <string name="acc_retailerId">Retailer ID</string>
+    <string name="acc_retailerName">Retailer Name</string>
+    <string name="acc_recordType">Account Record Type</string>
+    <string name="acc_retailerStatus">Retailer Status</string>
+    <string name="acc_retailerTermOfPayment">Retailer Terms of Payment</string>
+    <string name="acc_startingYear">Starting Year</string>
+    <string name="acc_streetAddress">Street Address</string>
+    <string name="acc_nextPlannedVisitDate">Next Planned Visit Date</string>
+    <string name="acc_tierKLAB">Tier KLAB</string>
+    <string name="acc_tierKLABHistory">Tier KLAB History</string>
+    <string name="acc_salesOfficer">Sales Officer</string>
+    <string name="acc_salesManInCharge">Salesman In Charge</string>
+    <string name="acc_capacityCurrentMonth">Current Capacity (Tons)</string>
+    <string name="acc_birthdate">Owner Birthdate</string>
+    <string name="acc_firstName">Owner First Name</string>
+    <string name="acc_ownerContactNumber">Owner Contact Number</string>
+    <string name="acc_lastName">Owner Last Name</string>
+    <string name="acc_title">Owner Title</string>
+    <string name="acc_priority">Priority</string>
+    <string name="acc_prospectId">Prospect ID</string>
+    <string name="acc_accountName">Prospect Name</string>
+    <string name="acc_accountId">Account ID</string>
+    <string name="acc_businessEntityStatus">Business Entity Status</string>
+    <string name="acc_lastDispatchDate">Last Dispatch Date</string>
+    <string name="acc_mobile2">Mobile 2</string>
+    <string name="contact_id">Contact ID</string>
+    <string name="contact_first_name">First Name</string>
+    <string name="contact_last_name">Last Name</string>
+    <string name="contact_gender">Gender</string>
+    <string name="contact_birthdate">Birthdate</string>
+    <string name="contact_phone">Phone</string>
+    <string name="contact_mobile">Mobile</string>
+    <string name="contact_extension">Extension</string>
+    <string name="contact_fax">Fax</string>
+    <string name="contact_email">Email</string>
+    <string name="contact_mailing_street">Mailing Street</string>
+    <string name="contact_mailing_city">Mailing City</string>
+    <string name="contact_mailing_state_province">Mailing State Province</string>
+    <string name="contact_mailing_postal_code">Mailing Postal Code</string>
+    <string name="contact_mailing_country">Mailing Country</string>
+    <string name="contact_nationality">Nationality</string>
+    <string name="contact_account_id">Account ID</string>
+    <string name="contact_account_name">Account Name</string>
+    <string name="contact_preferred_name">Preferred Name</string>
+    <string name="contact_national_id">National ID</string>
+    <string name="contact_religion">Religion</string>
+    <string name="contact_preferred_Contact_method">Preferred Contact Method</string>
+    <string name="contact_mobile_1">Mobile 1</string>
+    <string name="contact_mobile_2">Mobile 2</string>
+    <string name="contact_call_note">Call Note</string>
+    <string name="contact_title">Title</string>
+    <string name="contact_marital_status">Marital Status</string>
+    <string name="contact_favourite_food">Favourite Food</string>
+    <string name="contact_not_favourite_food">Not Favourite Food</string>
+    <string name="contact_favourite_drink">Favourite Drink</string>
+    <string name="contact_not_favourite_drink">Not Favourite Drink</string>
+    <string name="contact_hobbies">Hobbies</string>
+    <string name="contact_favourite_activities">Favourite Activities</string>
+    <string name="contact_favourite_sports">Favourite Sports</string>
+    <string name="warning_phone_mobile">Please fill in either Mobile 1 or Phone 1 field.</string>
+    <string name="warning_last_name_contact">Please fill in Last Name field.</string>
+    <string name="warning_account_contact">Please select Account Name field.</string>
+    <string name="warning_email_contact">Email is invalid. Please select a correct email address.</string>
+    <string name="outstandig_feedback_title">Outstanding Feedback</string>
+    <string name="error_competitormarketing_competitor_name">You can only create one Competitor Marketing per competitor.</string>
+    <string name="error_competitormarketing_competitor_name_empty">You must select Competitor to create a Competitor Marketing.</string>
+    <string name="error_invalid_program_date">Program End Date must be after Program Start Date.</string>
+    <string name="error_invalid_promotion_date">Promotion End Date must be after Promotion Start Date.</string>
+    <string name="unplanned_visit_error_account">Account Info is not available for unplanned visit.</string>
+    <string name="unplanned_visit_error_contact">Contact Info is not available for unplanned visit.</string>
+    <string name="unplanned_visit_error_market">HIL Last Market Info is not available for unplanned visit.</string>
+    <string name="unplanned_visit_error_competitor">Last Competitor Market Info is not available for unplanned visit.</string>
+    <string name="unplanned_visit_error_preorder">Preorder is not available for Prospect.</string>
+    <string name="contact_info_for_prospect_error">Contact Info is not available for Prospect.</string>
+    <string name="warning_telephone_mobile">Please fill in either Mobile 1 or Telephone 1 field.</string>
+    <string name="camera_activity_title">Take Photo</string>
+    <string name="sales_info_title">Sales Information</string>
+
+    <!-- sales execution - contact - marital status -->
+    <string-array name="sales_execution_marital_status">
+        <item></item>
+        <item>Divorced</item>
+        <item>Married</item>
+        <item>Separated</item>
+        <item>Single</item>
+        <item>Unknown</item>
+        <item>Widow</item>
+        <item>Widower</item>
+    </string-array>
+
+    <!-- sales execution - contact - favourite sports -->
+    <string-array name="sales_execution_favourite_sports">
+        <item></item>
+        <item>Aerobic Dance</item>
+        <item>Badminton</item>
+        <item>Basketball</item>
+        <item>Bowling</item>
+        <item>Fitness</item>
+        <item>Football</item>
+        <item>Golf</item>
+        <item>Jogging</item>
+        <item>Others</item>
+        <item>Swimming</item>
+        <item>Table Tennis</item>
+        <item>Tennis</item>
+        <item>Travelling</item>
+        <item>Volleyball</item>
+        <item>Walking</item>
+        <item>Yoga</item>
+    </string-array>
+
+    <!-- sales execution x desired reward -->
+    <string-array name="sales_execution_unplanned_visit_reason">
+        <item>Collection</item>
+        <item>Following up Complaint</item>
+        <item>Following up Action Log</item>
+        <item>Following up NPS</item>
+        <item>Sick Leave</item>
+        <item>Annual Leave</item>
+        <item>Company Event</item>
+        <item>Meeting</item>
+        <item>Training</item>
+    </string-array>
+
+    <string name="unplanned_visit_reason_title">Unplanned Visit Reason</string>
+    <string name="cancel_visit_reason_title">Do you want to cancel this visit?</string>
+    <string name="reason_for_not_ordering_title">Please, enter Reason For Not Ordering</string>
+    <string name="unplanned_visit_reason_error">Must select a reason</string>
+    <string name="cancel_visit_reason_error">Must select a reason</string>
+    <string name="tele_sale_title">Tele Sales</string>
+    <string name="pre_order_quantity_error">Pre-order Quantity and Unit fields are required. If Unit has not the value Ton, the Product field is required.</string>
+
+    <!-- Sales Info -->
+    <string name="si_target_curr">Sales Target Current Month (Tons)</string>
+    <string name="si_target">Sales Target MTD (Tons)</string>
+    <string name="si_cap">Capacity - Current Month - (tonnes/month)</string>
+    <string name="si_sow">HIL SoW - Current Month - (%)</string>
+    <string name="si_actual">Sales Actual MTD (Tons)</string>
+
+    <!-- Select the og to log into -->
+    <string name="select_an_org_title">Select the org to be logged</string>
+
+    <string-array name="select_an_org_items">
+        <item>Log into Production ORG</item>
+        <item>Log into Pre-prod ORG</item>
+    </string-array>
+
+    <!-- Last Competitor Market Info -->
+    <string name="last_competitor_market_info_supplier_name">Supplier Name</string>
+    <string name="last_competitor_market_info_Last_buying_price_date">Last Buying Price Date</string>
+    <string name="last_competitor_market_info_Last_buying_price">Last Buying Price</string>
+    <string name="last_competitor_market_info_Last_selling_price_date">Last Selling Price Date</string>
+    <string name="last_competitor_market_info_Last_selling_price">Last Selling Price</string>
+    <string name="last_competitor_market_info_last_inventory_date">Last Inventory Date</string>
+    <string name="last_competitor_market_info_last_inventory">Last Inventory (Tons)</string>
+    <string name="last_competitor_market_info_last_buying_volume_date">Last Buying Volume Date</string>
+    <string name="last_competitor_market_info_last_buying_volume">Last Month\'s Buying Volume (Tons)</string>
+    <string name="last_competitor_market_info_promotion">Promotion</string>
+    <string name="last_competitor_market_info_promotion_start_date">Promotion Start Date</string>
+    <string name="last_competitor_market_info_promotion_end_date">Promotion End Date</string>
+    <string name="last_competitor_market_info_program">Program</string>
+    <string name="last_competitor_market_info_program_start_date">Program Start Date</string>
+    <string name="last_competitor_market_info_program_end_date">Program End Date</string>
+
+    <string-array name="reason_for_not_ordering_values">
+        <item></item>
+        <item>Competitor"'"s promotion</item>
+        <item>Less Holcim market demand</item>
+        <item>Higher Holcim price</item>
+        <item>Financial issue</item>
+        <item>Holcim quality</item>
+        <item>Product availability issue</item>
+        <item>Late delivery</item>
+        <item>Distributor service level</item>
+        <item>Salesman"'"s attitude</item>
+        <item>Other (please mention)</item>
+    </string-array>
+    <!-- Contact Info Picklists -->
+    <string-array name="pl_title">
+        <item></item>
+        <item>Ibu</item>
+        <item>Bapak</item>
+        <item>Haji</item>
+        <item>Hajjah</item>
+        <item>Koh</item>
+        <item>Dr.</item>
+        <item>Atty.</item>
+        <item>Engr.</item>
+        <item>Ambassador</item>
+        <item>Mayor</item>
+        <item>Vice-Mayor</item>
+        <item>Congressman</item>
+        <item>Congresswoman</item>
+        <item>Senator</item>
+        <item>President</item>
+        <item>Vice-President</item>
+        <item>Governor</item>
+        <item>Vice-Governor</item>
+        <item>Secretary</item>
+        <item>Under Secretary</item>
+        <item>Asst. Secretary</item>
+    </string-array>
+    <string-array name="pl_contact">
+        <item></item>
+        <item>Phone</item>
+        <item>SMS</item>
+        <item>Email</item>
+        <item>Fax</item>
+        <item>BBM Pin</item>
+    </string-array>
+    <string-array name="pl_religion">
+        <item></item>
+        <item>Buddhist</item>
+        <item>Catholic</item>
+        <item>Christian</item>
+        <item>Hindu</item>
+        <item>Islam</item>
+        <item>Konghucu</item>
+        <item>Others</item>
+        <item>Unknown</item>
+    </string-array>
+
+    <string name="picture">Picture</string>
+    <string name="preorder_reasonfornotordering">If you have not Pre-orders, you have to add a Reason For Not Ordering.</string>
+    <string name="reason_for_buying_from_lead_competitors">Reason for buying from supplier</string>
+    <string name="experience_with_lead_competitors">Experience with competitor</string>
+    <string name="reason_for_unsatisfied_experience">Reason for Unsatisfied Experience</string>
+    <string name="TSO_preorder_error">You do not have the right permissions to access Pre-Order.</string>
+    <string name="progressbar_text">Downloading </string>
+    <string name="pick_date">Pick a date</string>
+
+</resources>

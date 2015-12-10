@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/imv_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/common_content_info"
+            android:scaleType="fitXY"
+            android:src="@drawable/photo_go" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imb_save"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:background="@color/light_grey"
+            android:contentDescription="@string/common_content_info"
+            android:scaleType="centerInside"
+            android:src="@drawable/save_white" />
+
+        <ImageButton
+            android:id="@+id/imb_cancel"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:background="@color/light_grey"
+            android:contentDescription="@string/common_content_info"
+            android:scaleType="centerInside"
+            android:src="@drawable/close_white" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/linearlayout_footer"
+        layout="@layout/footer" />
+
+</RelativeLayout><!-- From: file:/Users/maheshsukumar/AndroidStudioProjects/HolcimMovile/app/src/main/res/layout/photo_fragment.xml -->

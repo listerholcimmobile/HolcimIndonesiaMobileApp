@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true" android:drawable="@drawable/btn_white_gradient_border_corners_pressed" /> <!-- pressed -->
+    <item android:state_focused="true" android:drawable="@drawable/btn_white_gradient_border_corners_pressed" /> <!-- focused -->
+    <item android:state_enabled="false"  android:color="#ebebeb" android:drawable="@drawable/btn_white_gradient_border_corners_disabled"/><!-- disabled -->
+    <item android:drawable="@drawable/btn_white_gradient_border_corners" /> <!-- default -->
+</selector><!-- From: file:/Users/maheshsukumar/AndroidStudioProjects/HolcimMovile/app/src/main/res/drawable/button_white_gradient.xml -->

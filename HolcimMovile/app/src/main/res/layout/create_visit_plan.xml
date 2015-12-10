@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linear_layout_header_accounts"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/header_listview" >
+
+            <TextView
+                android:id="@+id/textView_title_listview_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:text="@string/accounts"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_view_accounts"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/common_row_list_view"
+            android:divider="@color/holcim_red"
+            android:dividerHeight="1sp" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_header_prospects"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/header_listview" >
+
+            <TextView
+                android:id="@+id/textView_title_listview_prospects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:text="@string/prospects"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_view_prospects"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/common_row_list_view"
+            android:divider="@color/holcim_red"
+            android:dividerHeight="1sp" >
+        </ListView>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/linearlayout_footer"
+        layout="@layout/footer" />
+
+</RelativeLayout>

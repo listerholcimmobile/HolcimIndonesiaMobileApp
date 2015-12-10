@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:components="http://schemas.android.com/apk/res"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sync_screen_message"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/holcim_red"
+            android:textStyle="bold" />
+
+        <com.holcim.altimetrik.android.utilities.TextProgressBar
+            android:id="@+id/progressBarWithText"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:max="100"
+            android:minHeight="39dp"
+            android:progressDrawable="@drawable/progressbar"
+            components:text="@string/progressbar_text"
+            components:textColor="@android:color/black"
+            components:textSize="15sp"
+            components:textStyle="bold" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/linearlayout_footer"
+        layout="@layout/footer" />
+
+</RelativeLayout><!-- From: file:/Users/maheshsukumar/AndroidStudioProjects/HolcimMovile/app/src/main/res/layout/progressbar.xml -->

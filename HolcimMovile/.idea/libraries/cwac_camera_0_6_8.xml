@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cwac-camera-0.6.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/cwac-camera-0.6.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

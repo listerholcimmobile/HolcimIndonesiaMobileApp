@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageButton_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/common_content_info"
+            android:src="@drawable/home" />
+
+        <LinearLayout
+            android:id="@+id/linearlayout_search"
+            android:layout_width="175dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/search_list_view"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageview_search_icon"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_gravity="left|center_vertical"
+                android:contentDescription="@string/common_content_info"
+                android:src="@drawable/search" />
+
+            <EditText
+                android:id="@+id/edittext_search"
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|center_vertical"
+                android:background="@color/transparent"
+                android:hint="@string/empty"
+                android:inputType="text"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_layout_header"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/linearlayout_search"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView_retailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/retailer"
+                android:textColor="@color/holcim_red"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView_kecamatan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="135dp"
+                android:text="@string/kecamatan"
+                android:textColor="@color/holcim_red"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView_tier_klb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:text="@string/tier_klb"
+                android:textColor="@color/holcim_red"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/listView_visit_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/relative_layout_header"
+            android:background="@drawable/common_list_view"
+            android:divider="@color/holcim_red"
+            android:dividerHeight="1sp" >
+        </ListView>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/linearlayout_footer"
+        layout="@layout/footer" />
+
+</RelativeLayout>

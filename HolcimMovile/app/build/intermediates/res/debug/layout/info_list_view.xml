@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.8"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/listView_visit_detail"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/common_list_view"
+            android:divider="@color/holcim_red"
+            android:dividerHeight="1sp" >
+        </ListView>
+
+        <ImageButton
+            android:id="@+id/imageButton_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="1dp"
+            android:background="@null"
+            android:contentDescription="@string/common_content_info"
+            android:src="@drawable/back"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/imageButton_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="1dp"
+            android:background="@null"
+            android:contentDescription="@string/common_content_info"
+            android:src="@drawable/next"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/linearlayout_footer"
+        layout="@layout/footer" />
+
+</LinearLayout><!-- From: file:/Users/maheshsukumar/AndroidStudioProjects/HolcimMovile/app/src/main/res/layout/info_list_view.xml -->

@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/maheshsukumar/AndroidStudioProjects/HolcimMovile/app/src/main/res/values-in/strings.xml -->
+    <eat-comment/>
+    <string-array name="action_log_status">
+        <item>Not Started</item>
+        <item>Pending</item>
+        <item>On Track</item>
+        <item>Completed</item>
+    </string-array>
+    <string-array name="comment_category">
+        <item>Technical</item>
+        <item>Sales</item>
+        <item>Marketing</item>
+        <item>Finance</item>
+        <item>Logistic</item>
+        <item>Promotion</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="comment_type">
+        <item>Feedback</item>
+        <item>Complaint</item>
+    </string-array>
+    <string-array name="comp_mark_experience_lead_competitor">
+        <item>Good</item>
+        <item>Average</item>
+        <item>Unsatisfactory</item>
+    </string-array>
+    <string-array name="comp_mark_reason_buying">
+        <item>Visited by competitor</item>
+        <item>Promotion</item>
+        <item>ToP</item>
+        <item>Price</item>
+        <item>Margin</item>
+        <item>Product availability</item>
+        <item>Ontime delivery</item>
+        <item>Market demand</item>
+        <item>Distributor reputation</item>
+        <item>Salesman attitude</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="competitor_marketing_fields">
+        <item>Informasi Pasar</item>
+        <item>Nama Penyalur</item>
+        <item>Harga Beli</item>
+        <item>Harga Jual</item>
+        <item>Stok (Ton)</item>
+        <item>Volume Pembelian Bulan Lalu (Ton)</item>
+        <item>Tanggal Volume Pembelian Bulan Lalu</item>
+        <item>Informasi Pasar Kompetitor</item>
+        <item>Beda Harga dengan Holcim</item>
+        <item>Promosi</item>
+        <item>Tanggal Mulai Promosi</item>
+        <item>Tanggal Promosi Berakhir</item>
+        <item>Program</item>
+        <item>Tanggal Mulai Program</item>
+        <item>Tanggal Program Berakhir</item>
+        <item>Keluhan</item>
+    </string-array>
+    <string-array name="confirm">
+        <item/>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="contact_fields">
+        <item>Nama Depan</item>
+        <item>Nama Belakang</item>
+        <item>Jenis Kelamin</item>
+        <item>Tanggal Lahir</item>
+        <item>Kewarganegaraan</item>
+        <item>Nomor Telepon</item>
+        <item>Nomor HP</item>
+        <item>Email 1</item>
+        <item>Nomor Ekstensi</item>
+        <item>Nomor Fax</item>
+        <item>Jalan Pengiriman</item>
+        <item>Kota Pengiriman</item>
+        <item>Propinsi Pengiriman</item>
+        <item>Kode Pos Pengiriman</item>
+        <item>Negara Pengiriman</item>
+        <item>Alamat Pengiriman</item>
+        <item>ID Toko</item>
+        <item>Nama Toko</item>
+    </string-array>
+    <string-array name="countries">
+        <item>Abijan CDI</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Amer.Virgin Is.</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua/Barbads</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bharain</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia-Herz.</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil</item>
+        <item>Brit.Ind.Oc.Ter</item>
+        <item>Brit.Virgin Is.</item>
+        <item>Brunei Dar-es-S</item>
+        <item>Bulgaria</item>
+        <item>Burkina-Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central Afr.Rep</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Islnd</item>
+        <item>Coconut Islands</item>
+        <item>Columbia</item>
+        <item>Comoro</item>
+        <item>CONAKRY</item>
+        <item>Congo</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Rep.</item>
+        <item>Dutch Antilles</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guin</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Faeroe</item>
+        <item>Falkland Islnds</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Frenc.Polynesia</item>
+        <item>French Guinea</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>McDon.Isl</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Ivory Coast</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kirghistan</item>
+        <item>Kiribati</item>
+        <item>Kuwait</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islnds</item>
+        <item>Martinique</item>
+        <item>Mauretania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Minor Outl.Isl.</item>
+        <item>Moldavia</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>N.Mariana Islnd</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue Islands</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Pap. New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islnds</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Rumania</item>
+        <item>Russian Fed.</item>
+        <item>Rwanda</item>
+        <item>S.Tome,Principe</item>
+        <item>Samoa,American</item>
+        <item>San Marino</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>SINGAPORE</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Korea</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>St. Helena</item>
+        <item>St. Lucia</item>
+        <item>St.Pier,Miquel.</item>
+        <item>St. Vincent</item>
+        <item>stateless</item>
+        <item>Sth Sandwich Is</item>
+        <item>Sth Terr. Franc</item>
+        <item>St Kitts&amp;Nevis</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Tadzhikistan</item>
+        <item>Taiwan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Togo</item>
+        <item>Tokelau Islands</item>
+        <item>Tonga</item>
+        <item>Trinidad,Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turksh Caicosin</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Kingdom</item>
+        <item>Uruguay</item>
+        <item>USA</item>
+        <item>Utd.Arab.Emir.</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis,Futuna</item>
+        <item>Western Samoa</item>
+        <item>West Sahara</item>
+        <item>White Russia</item>
+        <item>Yemen</item>
+        <item>Yugoslavia</item>
+        <item>Zaire</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+    <string-array name="education_code">
+        <item>Doctorate</item>
+        <item>Master Degree</item>
+        <item>Bachelor Degree</item>
+        <item>High School</item>
+        <item>Secondary School</item>
+        <item>Elementary School</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="experience_with_lead_competitors_values">
+        <item/>
+        <item>Good</item>
+        <item>Average</item>
+        <item>Unsatisfactory</item>
+    </string-array>
+    <string-array name="feedback_category_values">
+        <item/>
+        <item>Technical</item>
+        <item>Sales</item>
+        <item>Marketing</item>
+        <item>Finance</item>
+        <item>Logistic</item>
+        <item>Promotion</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="feedback_fields">
+        <item>Komplain</item>
+        <item>Status</item>
+        <item>Kategori</item>
+        <item>Keterangan</item>
+    </string-array>
+    <string-array name="feedback_status_values">
+        <item/>
+        <item>Need TSO Review</item>
+        <item>Discussed with TSO</item>
+        <item>Completed</item>
+    </string-array>
+    <string-array name="gender">
+        <item/>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="lead_source">
+        <item>Advertisement</item>
+        <item>Employee Referral</item>
+        <item>External Referral</item>
+        <item>Partner</item>
+        <item>Public Relations</item>
+        <item>Seminar - Internal</item>
+        <item>Seminar - Partner</item>
+        <item>Show</item>
+        <item>Web</item>
+        <item>Word of mouth</item>
+        <item>Other</item>
+        <item>Phone Inquiry</item>
+        <item>Partner Referral</item>
+        <item>Purchased List</item>
+    </string-array>
+    <string-array name="level">
+        <item>Secondary</item>
+        <item>Tertiary</item>
+        <item>Primary</item>
+    </string-array>
+    <string-array name="nationality">
+        <item/>
+        <item>Indonesian</item>
+        <item>Abijan</item>
+        <item>Afghani</item>
+        <item>Albanian</item>
+        <item>Algerian</item>
+        <item>American</item>
+        <item>Andorran</item>
+        <item>Angolan</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antiguan</item>
+        <item>Argentinian</item>
+        <item>Armenian</item>
+        <item>Arubanic</item>
+        <item>Australian</item>
+        <item>Austrian</item>
+        <item>Azerbaijani</item>
+        <item>Bahamas</item>
+        <item>Bangladesh</item>
+        <item>Barbadan</item>
+        <item>Belgian</item>
+        <item>Belizean</item>
+        <item>Beninese</item>
+        <item>Bermudan</item>
+        <item>Bharaini</item>
+        <item>Bhutanese</item>
+        <item>Bolivian</item>
+        <item>Bosnia-Herz.</item>
+        <item>Botswanan</item>
+        <item>Bouvet Island</item>
+        <item>Brazilian</item>
+        <item>Brit.Ind.Oc.Ter</item>
+        <item>British</item>
+        <item>Brunei</item>
+        <item>Bulgarian</item>
+        <item>Burkina-Faso</item>
+        <item>Burundi</item>
+        <item>Cambodian</item>
+        <item>Cameroonian</item>
+        <item>Canadian</item>
+        <item>Cape Verdian</item>
+        <item>Central African</item>
+        <item>Chadian</item>
+        <item>Chilean</item>
+        <item>Chinese</item>
+        <item>Columbian</item>
+        <item>Comoran</item>
+        <item>Congolese</item>
+        <item>Cook Islands</item>
+        <item>Costa Rican</item>
+        <item>Croatian</item>
+        <item>Cuban</item>
+        <item>Cypriot</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Djiboutian</item>
+        <item>Dominican</item>
+        <item>Dutch</item>
+        <item>East Timor</item>
+        <item>Ecuadorian</item>
+        <item>Egyptian</item>
+        <item>Equatorial Guin</item>
+        <item>Eritrea</item>
+        <item>Estonian</item>
+        <item>Ethiopian</item>
+        <item>f. St Kitts/Nev</item>
+        <item>f. Trinidad &amp; T</item>
+        <item>Fijian</item>
+        <item>Filipino</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>Gabonese</item>
+        <item>Gambian</item>
+        <item>Georgian</item>
+        <item>German</item>
+        <item>Ghanian</item>
+        <item>Gibraltar</item>
+        <item>Greek</item>
+        <item>Grenadian</item>
+        <item>Guatemalan</item>
+        <item>Guinea-Bissau</item>
+        <item>Guinean</item>
+        <item>Guyanese</item>
+        <item>Haitian</item>
+        <item>Heard/McDon.Isl</item>
+        <item>Honduran</item>
+        <item>Hong Kong</item>
+        <item>Hungarian</item>
+        <item>Icelandic</item>
+        <item>Indian</item>
+        <item>Indonesian</item>
+        <item>Iranian</item>
+        <item>Iraqi</item>
+        <item>Irish</item>
+        <item>Israeli</item>
+        <item>Italian</item>
+        <item>Ivory Coast</item>
+        <item>Jamaican</item>
+        <item>Japanese</item>
+        <item>Jordanian</item>
+        <item>Kazakh</item>
+        <item>Kenyan</item>
+        <item>Kirghistani</item>
+        <item>Kiribati</item>
+        <item>Korean</item>
+        <item>Kuwaiti</item>
+        <item>Laotian</item>
+        <item>Latvian</item>
+        <item>Lebanese</item>
+        <item>Lesothan</item>
+        <item>Liberian</item>
+        <item>Libyan</item>
+        <item>Liechtenstein</item>
+        <item>Lithuanian</item>
+        <item>Lucian</item>
+        <item>Luxembourgian</item>
+        <item>Macedonian</item>
+        <item>Madagascan</item>
+        <item>Malawian</item>
+        <item>Malaysian</item>
+        <item>Maldivian</item>
+        <item>Malian</item>
+        <item>Maltese</item>
+        <item>Marianian</item>
+        <item>Marshall Islnds</item>
+        <item>Mauretanian</item>
+        <item>Mauritian</item>
+        <item>Mexican</item>
+        <item>Micronesian</item>
+        <item>Minor Outl.Isl.</item>
+        <item>Moldavian</item>
+        <item>Monegasque</item>
+        <item>Mongolian</item>
+        <item>Montserrat</item>
+        <item>Moroccan</item>
+        <item>Mozambican</item>
+        <item>Myanmar</item>
+        <item>Namibian</item>
+        <item>Nauruian</item>
+        <item>Nepalese</item>
+        <item>New Zealand</item>
+        <item>Nicaraguan</item>
+        <item>Nigerian</item>
+        <item>Nigerois</item>
+        <item>Niue Islands</item>
+        <item>Norfolk Island</item>
+        <item>Norwegian</item>
+        <item>Omani</item>
+        <item>Pakistani</item>
+        <item>Palau</item>
+        <item>Panamanian</item>
+        <item>Pap.New Guinea</item>
+        <item>Paraguayan</item>
+        <item>Peruvian</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Qatar</item>
+        <item>Rumanian</item>
+        <item>Russian</item>
+        <item>Rwandan</item>
+        <item>Salvdorean</item>
+        <item>Samoan</item>
+        <item>San Marinese</item>
+        <item>Santomeic</item>
+        <item>Saudi Arabian</item>
+        <item>Senegalese</item>
+        <item>Seychellian</item>
+        <item>Sierra Leonean</item>
+        <item>Singaporean</item>
+        <item>Slovakian</item>
+        <item>Slovenian</item>
+        <item>Solomonese</item>
+        <item>Somalian</item>
+        <item>South African</item>
+        <item>Spanish</item>
+        <item>Sri Lankan</item>
+        <item>St. Helena</item>
+        <item>Stateless</item>
+        <item>Sth Terr. Franc</item>
+        <item>Sudanese</item>
+        <item>Surinamese</item>
+        <item>Swazi</item>
+        <item>Swedish</item>
+        <item>Swiss</item>
+        <item>Syrian</item>
+        <item>Tadzhikistani</item>
+        <item>Taiwanese</item>
+        <item>Tanzanian</item>
+        <item>Thai</item>
+        <item>Togolese</item>
+        <item>Tokelau Islands</item>
+        <item>Tongan</item>
+        <item>Tunisian</item>
+        <item>Turkish</item>
+        <item>Turkmenian</item>
+        <item>Turksh Caicosin</item>
+        <item>Tuvaluese</item>
+        <item>Ugandan</item>
+        <item>Ukrainian</item>
+        <item>Unit.Arab Emir.</item>
+        <item>Uruguayan</item>
+        <item>Uzbekistani</item>
+        <item>Vanuatese</item>
+        <item>Vatican City</item>
+        <item>Venezuelan</item>
+        <item>Vietnamese</item>
+        <item>Vincentian</item>
+        <item>Wallis,Futuna</item>
+        <item>West Saharan</item>
+        <item>White Russia</item>
+        <item>Yemeni</item>
+        <item>Yugoslavian</item>
+        <item>Zairian</item>
+        <item>Zambian</item>
+        <item>Zimbabwean</item>
+    </string-array>
+    <array name="nav_drawer_icons">
+        <item>@drawable/nav_account</item>
+        <item>@drawable/nav_contact</item>
+        <item>@drawable/lhm</item>
+        <item>@drawable/lcm</item>
+        <item>@drawable/nav_shopsign</item>
+        <item>@drawable/mi</item>
+        <item>@drawable/nav_feedback</item>
+        <item>@drawable/nav_preorder</item>
+    </array>
+    <string-array name="nav_drawer_items">
+        <item>Account</item>
+        <item>Contact</item>
+        <item>HIL Last Market Info</item>
+        <item>Last Competitor Market Info</item>
+        <item>Shop Sign</item>
+        <item>Market Info</item>
+        <item>Feedback</item>
+        <item>Preorder</item>
+    </string-array>
+    <string-array name="pic_position">
+        <item>- TSO</item>
+        <item>- Coach</item>
+        <item>ASC</item>
+        <item>RSM</item>
+        <item>Head of Retail</item>
+        <item>Logistic</item>
+        <item>Brand</item>
+        <item>Technical Marketing</item>
+        <item>Manufacturing</item>
+        <item>Customer Care</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="pl_contact">
+        <item/>
+        <item>Phone</item>
+        <item>SMS</item>
+        <item>Email</item>
+        <item>Fax</item>
+        <item>BBM Pin</item>
+    </string-array>
+    <string-array name="pl_religion">
+        <item/>
+        <item>Buddhist</item>
+        <item>Catholic</item>
+        <item>Christian</item>
+        <item>Hindu</item>
+        <item>Islam</item>
+        <item>Konghucu</item>
+        <item>Others</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="pl_title">
+        <item/>
+        <item>Ibu</item>
+        <item>Bapak</item>
+        <item>Haji</item>
+        <item>Hajjah</item>
+        <item>Koh</item>
+        <item>Dr.</item>
+        <item>Atty.</item>
+        <item>Engr.</item>
+        <item>Ambassador</item>
+        <item>Mayor</item>
+        <item>Vice-Mayor</item>
+        <item>Congressman</item>
+        <item>Congresswoman</item>
+        <item>Senator</item>
+        <item>President</item>
+        <item>Vice-President</item>
+        <item>Governor</item>
+        <item>Vice-Governor</item>
+        <item>Secretary</item>
+        <item>Under Secretary</item>
+        <item>Asst. Secretary</item>
+    </string-array>
+    <string-array name="pre_order_product">
+        <item/>
+        <item>40kg sack</item>
+        <item>50kg sack</item>
+    </string-array>
+    <string-array name="pre_order_unit">
+        <item/>
+        <item>Bag</item>
+        <item>Ton</item>
+    </string-array>
+    <string-array name="prospect_account_type">
+        <item>Solusi Rumah Retailer</item>
+        <item>Distributor Warehouse</item>
+        <item>Regular Retailer</item>
+        <item>Project</item>
+        <item>CPM</item>
+    </string-array>
+    <string-array name="prospect_business_entity_status">
+        <item/>
+        <item>CV</item>
+        <item>PD</item>
+        <item>PT</item>
+        <item>TB</item>
+        <item>UD</item>
+        <item>BP</item>
+        <item>PB</item>
+        <item>PK</item>
+    </string-array>
+    <string-array name="prospect_country">
+        <item>Indonesia</item>
+        <item>Thailand</item>
+        <item>Singapore</item>
+        <item>Uruguay</item>
+    </string-array>
+    <string-array name="prospect_distributor_channel">
+        <item>Application</item>
+        <item>Distributor</item>
+        <item>Direct Customer</item>
+        <item>Holcim Group</item>
+        <item>Transformational</item>
+        <item>Transporter</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="prospect_experience_with_lead_competitor">
+        <item>Good</item>
+        <item>Unsatisfactory</item>
+    </string-array>
+    <string-array name="prospect_first_cement_supplier">
+        <item>Tiga Roda</item>
+        <item>Semen Gresik</item>
+        <item>Semen Merah Putih</item>
+        <item>Semen Padang</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="prospect_land_status">
+        <item/>
+        <item>punya</item>
+        <item>sewa</item>
+    </string-array>
+    <string-array name="prospect_retailer_terms_of_payment">
+        <item/>
+        <item>1 - 7 Days</item>
+        <item>8 - 14 Days</item>
+        <item>15 - 30 Days</item>
+        <item>More than 1 month</item>
+    </string-array>
+    <string-array name="prospect_status">
+        <item>Active</item>
+        <item>Converted</item>
+        <item>Dropped</item>
+        <item>Error</item>
+    </string-array>
+    <string-array name="reason_for_buying_from_lead_competitors_values">
+        <item/>
+        <item>Visited by competitor</item>
+        <item>Promotion</item>
+        <item>ToP</item>
+        <item>Price</item>
+        <item>Margin</item>
+        <item>Product availability</item>
+        <item>Ontime delivery</item>
+        <item>Market demand</item>
+        <item>Distributor reputation</item>
+        <item>Salesman attitude</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="reason_for_not_ordering_values">
+        <item/>
+        <item>Competitor"'"s promotion</item>
+        <item>Less Holcim market demand</item>
+        <item>Higher Holcim price</item>
+        <item>Financial issue</item>
+        <item>Holcim quality</item>
+        <item>Product availability issue</item>
+        <item>Late delivery</item>
+        <item>Distributor service level</item>
+        <item>Salesman"'"s attitude</item>
+        <item>Other (please mention)</item>
+    </string-array>
+    <string-array name="retailer_segmentation">
+        <item>Segment for Active Retailers</item>
+        <item>Priority for Inactive and Prospect Retailers</item>
+    </string-array>
+    <string-array name="retailer_type">
+        <item>Existing for Active Retailer</item>
+        <item>New for Prospect and Inactive Retailer</item>
+    </string-array>
+    <string-array name="sale_execution_action">
+        <item>None</item>
+        <item>Refurbish/Reposter panel (Perbaikan panel / sticker)</item>
+        <item>Repair stand (Perbaikan tiang)</item>
+        <item>Remove</item>
+    </string-array>
+    <string-array name="sale_execution_action_status">
+        <item/>
+        <item>In Progress</item>
+        <item>Completed</item>
+    </string-array>
+    <string-array name="sale_execution_cleanness_condition">
+        <item/>
+        <item>Clean</item>
+        <item>Dirty</item>
+    </string-array>
+    <string-array name="sale_execution_color_condition">
+        <item/>
+        <item>Clear &amp; readable (Jelas dan terbaca)</item>
+        <item>Tarnished (pudar)</item>
+    </string-array>
+    <string-array name="sale_execution_condition_shop_sign">
+        <item/>
+        <item>Need Re-postering</item>
+        <item>Remove</item>
+        <item>Replace</item>
+        <item>Acceptable</item>
+    </string-array>
+    <string-array name="sale_execution_physical_condition">
+        <item/>
+        <item>Good</item>
+        <item>Damaged</item>
+    </string-array>
+    <string-array name="sale_execution_priority">
+        <item/>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+    <string-array name="sales_execution_favourite_sports">
+        <item/>
+        <item>Aerobic Dance</item>
+        <item>Badminton</item>
+        <item>Basketball</item>
+        <item>Bowling</item>
+        <item>Fitness</item>
+        <item>Football</item>
+        <item>Golf</item>
+        <item>Jogging</item>
+        <item>Others</item>
+        <item>Swimming</item>
+        <item>Table Tennis</item>
+        <item>Tennis</item>
+        <item>Travelling</item>
+        <item>Volleyball</item>
+        <item>Walking</item>
+        <item>Yoga</item>
+    </string-array>
+    <string-array name="sales_execution_marital_status">
+        <item/>
+        <item>Divorced</item>
+        <item>Married</item>
+        <item>Separated</item>
+        <item>Single</item>
+        <item>Unknown</item>
+        <item>Widow</item>
+        <item>Widower</item>
+    </string-array>
+    <string-array name="sales_execution_ss_competitor_name">
+        <item>Indocement</item>
+        <item>Semen Gresik</item>
+        <item>Semen Merah Putih</item>
+        <item>Semen Padang</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="sales_execution_status">
+        <item>Planned</item>
+        <item>Canceled</item>
+        <item>Completed</item>
+        <item>Reassigned</item>
+        <item>Rescheduled</item>
+    </string-array>
+    <string-array name="sales_execution_tier_klab_history">
+        <item>Jaya Wijaya</item>
+        <item>Kerinci</item>
+        <item>Rinjani</item>
+        <item>Semeru</item>
+        <item>Red</item>
+    </string-array>
+    <string-array name="sales_execution_type_shop_sign">
+        <item/>
+        <item>Horizontal 3x1 meter, menempel bangunan (mounted on the building)</item>
+        <item>Horizontal pakai tiang, 1 muka (with stand, one sided)</item>
+        <item>Vertical 1x2.5 meter, 1 muka dan 2 muka dengan tiang (with stand, one sided or two sided)</item>
+    </string-array>
+    <string-array name="sales_execution_unplanned_visit_reason">
+        <item>Collection</item>
+        <item>Following up Complaint</item>
+        <item>Following up Action Log</item>
+        <item>Following up NPS</item>
+        <item>Sick Leave</item>
+        <item>Annual Leave</item>
+        <item>Company Event</item>
+        <item>Meeting</item>
+        <item>Training</item>
+    </string-array>
+    <string-array name="sales_execution_x_desired_reward">
+        <item>Reward 1</item>
+        <item>Reward 2</item>
+        <item>Reward 3</item>
+        <item>Reward 4</item>
+    </string-array>
+    <string-array name="select_an_org_items">
+        <item>Log into Production ORG</item>
+        <item>Log into Pre-prod ORG</item>
+    </string-array>
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Unknown</item>
+    </string-array>
+    <string name="Picture">Foto</string>
+    <string name="Picture_description">Keterangan Foto</string>
+    <string name="TSO_preorder_error">Maaf, anda tidak mempunyai hak akses ke Pre-Order.</string>
+    <string name="acc_JelajahHolcimID">Kode Jelajah Holcim</string>
+    <string name="acc_accountId">ID Toko</string>
+    <string name="acc_accountName">Nama Prospek</string>
+    <string name="acc_accountType">Jenis Toko (SAP)</string>
+    <string name="acc_bankAccountBranch1">Cabang Rekening Bank 1</string>
+    <string name="acc_bankAccountBranch2">Cabang Rekening Bank 2</string>
+    <string name="acc_bankAccountBranch3">Cabang Rekening Bank 3</string>
+    <string name="acc_bankAccountName1">Nama Rekening Bank 1</string>
+    <string name="acc_bankAccountName2">Nama Rekening Bank 2</string>
+    <string name="acc_bankAccountName3">Nama Rekening Bank 3</string>
+    <string name="acc_bankAccountNumber1">Nomor Rekening Bank 1</string>
+    <string name="acc_bankAccountNumber2">Nomor Rekening Bank 2</string>
+    <string name="acc_bankAccountNumber3">Nomor Rekening Bank 3</string>
+    <string name="acc_birthdate">Tanggal Ulang Tahun Pemilik</string>
+    <string name="acc_businessEntityStatus">Badan Usaha</string>
+    <string name="acc_capacityCurrentMonth">Current Capacity (Tons)</string>
+    <string name="acc_deliveryRemark">Catatan Pengiriman</string>
+    <string name="acc_district">Distrik</string>
+    <string name="acc_eightTTruckArmada">Jumlah Truk 8 Ton</string>
+    <string name="acc_email1">Email 1</string>
+    <string name="acc_extension1">Nomor Ekstensi 1</string>
+    <string name="acc_fax1">Nomor Fax 1</string>
+    <string name="acc_firstName">Nama Depan Pemilik</string>
+    <string name="acc_holcimeterBalance">Sisa Holcimeter</string>
+    <string name="acc_holcimeterBonus">Bonus Holcimeter</string>
+    <string name="acc_holcimeterTotal">Total Holcimeter</string>
+    <string name="acc_jelajahHolcimMembership">Keanggotaan Jelajah Holcim</string>
+    <string name="acc_kecamatan">Kecamatan</string>
+    <string name="acc_kelurahan">Kelurahan</string>
+    <string name="acc_keyRetailer">Key Account / Toko</string>
+    <string name="acc_kota">Kota</string>
+    <string name="acc_landStatus">Status Tanah</string>
+    <string name="acc_landmarkDescription">Keterangan Lokasi</string>
+    <string name="acc_landmarkPicture">Foto Lokasi</string>
+    <string name="acc_lastActualVisitDate">Tanggal Aktual Kunjungan Terakhir</string>
+    <string name="acc_lastDispatchDate">Tanggal Pengiriman Terakhir</string>
+    <string name="acc_lastName">Nama Belakang Pemilik</string>
+    <string name="acc_lastPlannedVisitDate">Tanggal Rencana Kunjungan Terakhir</string>
+    <string name="acc_lastRewardRedeemed">Hadiah Terakhir Diklaim</string>
+    <string name="acc_latitude">Garis Lintang</string>
+    <string name="acc_longitude">Garis Bujur</string>
+    <string name="acc_mobile1">Nomor HP 1</string>
+    <string name="acc_mobile2">Nomor HP 2</string>
+    <string name="acc_nextPlannedVisitDate">Tanggal Rencana Kunjungan Berikutnya</string>
+    <string name="acc_numberOfPermanentEmployees">Jumlah Pekerja Tetap</string>
+    <string name="acc_ownerContactNumber">No. Telepon Pemilik</string>
+    <string name="acc_phone1">Nomor Telepon 1</string>
+    <string name="acc_phone2">Nomor Telepon 2</string>
+    <string name="acc_pickUp2TArmada">Jumlah Pick-up 2 Ton</string>
+    <string name="acc_postalCode">Kode Pos</string>
+    <string name="acc_priority">Prioritas</string>
+    <string name="acc_prospectId">ID Prospek</string>
+    <string name="acc_province">Propinsi</string>
+    <string name="acc_recordType">Jenis Toko</string>
+    <string name="acc_retailerCreditLimit">Credit Limit Toko</string>
+    <string name="acc_retailerId">Kode Toko</string>
+    <string name="acc_retailerName">Nama Toko</string>
+    <string name="acc_retailerStatus">Status Toko</string>
+    <string name="acc_retailerTermOfPayment">Term of Payment Toko</string>
+    <string name="acc_salesManInCharge">Salesman Toko</string>
+    <string name="acc_salesOfficer">Sales Officer</string>
+    <string name="acc_startingYear">Tahun Berdiri Toko</string>
+    <string name="acc_streetAddress">Alamat Jalan</string>
+    <string name="acc_tierKLAB">Tier KLAB</string>
+    <string name="acc_tierKLABHistory">Tier KLAB Tahun Sebelumnya</string>
+    <string name="acc_title">Nama Pemilik</string>
+    <string name="acc_twentyFourTTruckArmada">Jumlah Truk 24 Ton</string>
+    <string name="acc_x1stDesiredReward">Hadiah yang Diinginkan</string>
+    <string name="acc_x1stDesiredRewardPoints">Poin Hadiah yang Diinginkan</string>
+    <string name="acc_x2ndDesiredReward">2nd Hadiah yang Diinginkan</string>
+    <string name="acc_x2ndDesiredRewardPoints">Poin Hadiah yang Diinginkan 2</string>
+    <string name="acc_x3rdDesiredReward">3rd Hadiah yang Diinginkan</string>
+    <string name="acc_x3rdDesiredRewardPoints">Poin Hadiah yang Diinginkan 3</string>
+    <string name="account_info_title">Informasi Toko</string>
+    <string name="accounts">Daftar Toko</string>
+    <string name="actionLogNumber">Nomor Action Log</string>
+    <string name="app_name">Holcim Sales Execution</string>
+    <string name="btn_confirm_signin_pin_introduction">Lanjutkan</string>
+    <string name="callbackUrlProduction">https://login.salesforce.com/services/oauth2/success</string>
+    <string name="callbackUrlTest">https://test.salesforce.com/services/oauth2/success</string>
+    <string name="camera_activity_title">Take Photo</string>
+    <string name="cancel">Batal</string>
+    <string name="cancel_visit_reason_error">Must select a reason</string>
+    <string name="cancel_visit_reason_title">Apakah ingin membatalkan kunjungan ini?</string>
+    <string name="category">Kategori</string>
+    <string name="check_in">Check-in</string>
+    <!-- From: file:/Users/maheshsukumar/AndroidStudioProjects/HolcimMovile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-in/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Aplikasi memerlukan pembaruan ke aplikasi Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Aplikasi ini tidak akan berjalan sampai Anda memperbarui layanan Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Perbarui Android Wear"</string>
+    <!-- From: file:/Users/maheshsukumar/AndroidStudioProjects/HolcimMovile/app/src/main/res/values-in/strings.xml -->
+    <eat-comment/>
+    <string name="common_content_info">_</string>
+    <!-- From: file:/Users/maheshsukumar/AndroidStudioProjects/HolcimMovile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-in/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Aktifkan layanan Google Play"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Aplikasi ini tidak akan bekerja sampai Anda mengaktifkan layanan Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Aktifkan layanan Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Diminta oleh <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Dapatkan layanan Google Play"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Aplikasi ini tidak akan berjalan tanpa layanan Google Play, yang tidak ada di ponsel Anda."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Aplikasi ini tidak akan berjalan tanpa layanan Google Play, yang tidak ada di tablet Anda."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Dapatkan layanan Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Akun yang ditentukan tidak ada di perangkat ini. Pilih akun lain."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Akun Tidak Valid"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Aplikasi mewajibkan agar layanan Google Play diaktifkan."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Sambungan data diperlukan untuk tersambung ke layanan Google Play."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Kesalahan Jaringan"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Aplikasi mewajibkan pemasangan layanan Google Play."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Aplikasi mewajibkan pembaruan untuk layanan Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Kesalahan layanan Google Play"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Masalah tidak diketahui pada layanan Google Play."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Layanan Google Play, yang diandalkan oleh beberapa aplikasi Anda, tidak didukung oleh perangkat Anda. Hubungi pabrikan untuk mendapatkan bantuan."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Layanan Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Perbarui"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Aplikasi ini tidak akan berjalan sampai Anda memperbarui layanan Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Perbarui layanan Google Play"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Buka di ponsel"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Masuk"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Masuk dengan Google"</string>
+    <!-- From: file:/Users/maheshsukumar/AndroidStudioProjects/HolcimMovile/app/src/main/res/values-in/strings.xml -->
+    <eat-comment/>
+    <string name="complain">Komplain</string>
+    <string name="confirm_signin_pin_introduction">Konfirmasi PIN anda</string>
+    <string name="consumer_key">3MVG9e2mBbZnmM6lk8YA8cOgMyxHxysRqKg4sP5Sry5bhGkZpZXCb7Ez0KGMGdDFZe9CchCu.Q20Ws71SzRPn</string>
+    <string name="consumer_secret">4430680915156717853</string>
+    <string name="contact_account_id">ID Toko</string>
+    <string name="contact_account_name">Nama Toko</string>
+    <string name="contact_birthdate">Tanggal Lahir</string>
+    <string name="contact_call_note">Catatan Telepon</string>
+    <string name="contact_email">Email</string>
+    <string name="contact_extension">Nomor Ekstensi</string>
+    <string name="contact_favourite_activities">Kegiatan yang Disukai</string>
+    <string name="contact_favourite_drink">Minuman Kesukaan</string>
+    <string name="contact_favourite_food">Makanan Kesukaan</string>
+    <string name="contact_favourite_sports">Olahraga yang Disukai</string>
+    <string name="contact_fax">Nomor Fax</string>
+    <string name="contact_first_name">Nama Depan</string>
+    <string name="contact_gender">Jenis Kelamin</string>
+    <string name="contact_hobbies">Hobby / Kesenangan</string>
+    <string name="contact_id">Kode Kontak</string>
+    <string name="contact_info_for_prospect_error">Informasi kontak tidak tersedia untuk prospek</string>
+    <string name="contact_info_title">Informasi Kontak</string>
+    <string name="contact_last_name">Nama Belakang</string>
+    <string name="contact_mailing_city">Kota Pengiriman</string>
+    <string name="contact_mailing_country">Negara Pengiriman</string>
+    <string name="contact_mailing_postal_code">Kode Pos Pengiriman</string>
+    <string name="contact_mailing_state_province">Propinsi Pengiriman</string>
+    <string name="contact_mailing_street">Jalan Pengiriman</string>
+    <string name="contact_marital_status">Status Menikah</string>
+    <string name="contact_mobile">Nomor HP</string>
+    <string name="contact_mobile_1">Nomor HP 1</string>
+    <string name="contact_mobile_2">Nomor HP 2</string>
+    <string name="contact_national_id">Nomor KTP</string>
+    <string name="contact_nationality">Kewarganegaraan</string>
+    <string name="contact_not_favourite_drink">Minuman yang Tidak Disukai</string>
+    <string name="contact_not_favourite_food">Makanan yang Tidak Disukai</string>
+    <string name="contact_phone">Nomor Telepon</string>
+    <string name="contact_preferred_Contact_method">Lebih Baik Dihubungi Melalui</string>
+    <string name="contact_preferred_name">Nama Panggilan</string>
+    <string name="contact_religion">Agama</string>
+    <string name="contact_title">Gelar</string>
+    <string name="contacts">Daftar Kontak</string>
+    <string name="create_new_contact">Buat Kontak Baru</string>
+    <string name="create_unplanned_visit">Buat Unplanned Visit</string>
+    <string name="current_week">Minggu Ini</string>
+    <string name="date_hint">05/07/2014</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="description">Keterangan</string>
+    <string name="empty"/>
+    <string name="empty_sign_in_pin_modal_error_message">Informasi tidak lengkap</string>
+    <string name="error_competitormarketing_competitor_name">Informasi pasar penyalur ini sudah ada. Mohon pilih penyalur lain.</string>
+    <string name="error_competitormarketing_competitor_name_empty">Nama Penyalur harus diisi.</string>
+    <string name="error_edittext">The name of the Folder is empty or too long. Please enter a valid name to update the Folder.</string>
+    <string name="error_invalid_program_date">Tanggal Program Berakhir tidak boleh mendahului Tanggal Program Mulai.</string>
+    <string name="error_invalid_promotion_date">Tanggal Promosi Berakhir tidak boleh mendahului Tanggal Promosi Mulai.</string>
+    <string name="experience_with_lead_competitors">Pengalaman dengan Penyalur</string>
+    <string name="feedback_placeholder">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="feedback_title">Saran dan Masukan</string>
+    <string name="finish">Selesai</string>
+    <string name="finish_se">Selesai Kunjungan</string>
+    <string name="header_app_name">Sales Execution</string>
+    <string name="home">Home</string>
+    <string name="id">ID</string>
+    <string name="last_competitor_market_info">Informasi Pasar Kompetitor Terakhir</string>
+    <string name="last_competitor_market_info_Last_buying_price">HJD Terakhir</string>
+    <string name="last_competitor_market_info_Last_buying_price_date">Tanggal HJD Terakhir</string>
+    <string name="last_competitor_market_info_Last_selling_price">HJT Terakhir</string>
+    <string name="last_competitor_market_info_Last_selling_price_date">Tanggal HJT Terakhir</string>
+    <string name="last_competitor_market_info_last_buying_volume">Volume Pembelian Bulan Lalu (Ton)</string>
+    <string name="last_competitor_market_info_last_buying_volume_date">Tanggal Volume Pembelian Bulan Lalu</string>
+    <string name="last_competitor_market_info_last_inventory">Stok Terakhir (Ton)</string>
+    <string name="last_competitor_market_info_last_inventory_date">Tanggal Stok Terakhir</string>
+    <string name="last_competitor_market_info_program">Program</string>
+    <string name="last_competitor_market_info_program_end_date">Tanggal Program Berakhir</string>
+    <string name="last_competitor_market_info_program_start_date">Tanggal Mulai Program</string>
+    <string name="last_competitor_market_info_promotion">Promosi</string>
+    <string name="last_competitor_market_info_promotion_end_date">Tanggal Promosi Berakhir</string>
+    <string name="last_competitor_market_info_promotion_start_date">Tanggal Mulai Promosi</string>
+    <string name="last_competitor_market_info_supplier_name">Nama Penyalur</string>
+    <string name="login">Login</string>
+    <string name="message_app_internal_error">Application error. Please try again.</string>
+    <string name="message_button_close">Close</string>
+    <string name="message_button_no">Tidak</string>
+    <string name="message_button_ok">OK</string>
+    <string name="message_button_yes">Ya</string>
+    <string name="message_logout_confirmation">Are you sure you want to logout?</string>
+    <string name="message_no_internet_connection">No internet connection found. Please connect your device to the internet.</string>
+    <string name="message_session_expired">Session expired. Please log in to continue.</string>
+    <string name="message_title_confirm">Confirm</string>
+    <string name="message_title_error">Error</string>
+    <string name="message_title_info">Informasi</string>
+    <string name="message_warning_go_home">Kembali ke halaman utama. Selesaikan pengisian data di halaman ini agar data tersimpan.</string>
+    <string name="mobile_Address">Mobile Address</string>
+    <string name="modal_pin_check_title">Masukkan PIN anda</string>
+    <string name="modal_pin_check_wrong_pin_error">PIN anda salah</string>
+    <string name="my_visit_plan_activity_title">Daftar Rencana Kunjungan Saya</string>
+    <string name="name">Nama</string>
+    <string name="new_contact">Kontak Baru</string>
+    <string name="next_week">Minggu Depan</string>
+    <string name="notification">PEMBERITAHUAN</string>
+    <string name="oAuthRefreshUrlProduction">https://login.salesforce.com/services/oauth2/token</string>
+    <string name="oAuthRefreshUrlTest">https://test.salesforce.com/services/oauth2/token</string>
+    <string name="oAuthUrlProduction">https://login.salesforce.com/services/oauth2/authorize?response_type=token&amp;display=touch&amp;client_id=</string>
+    <string name="oAuthUrlTest">https://test.salesforce.com/services/oauth2/authorize?response_type=token&amp;display=touch&amp;client_id=</string>
+    <string name="ok">OK</string>
+    <string name="outstandig_feedback_title">Saran dan Masukan Yang Belum Selesai</string>
+    <string name="pick_date">Pick a date</string>
+    <string name="picture">Foto</string>
+    <string name="po_account">Account</string>
+    <string name="po_date">Tanggal Pre-Order</string>
+    <string name="po_product">Jenis Kantong</string>
+    <string name="po_prospect">Prospect</string>
+    <string name="po_reasonForNotOrdering">Alasan Tidak Memesan</string>
+    <string name="po_salesex">Aplikasi Kunjungan</string>
+    <string name="po_unit">Ukuran</string>
+    <string name="po_volume">Jumlah Pemesanan</string>
+    <string name="pre_order_quantity_error">Jumlah Pemesanan, Ukuran, dan Jenis Kantong harus diisi</string>
+    <string name="preorder_reasonfornotordering">Bila toko tidak memesan, mohon masukkan Alasan Toko Tidak Memesan</string>
+    <string name="preorder_title">Pemesanan Semen</string>
+    <string name="previous_sales_title">Informasi Pasar Holcim Terakhir</string>
+    <string name="progressbar_text">Sedang mengunggah</string>
+    <string name="prospect_info_title">Informasi Prospek</string>
+    <string name="prospects">Daftar Toko Prospek</string>
+    <string name="pse_bp_competitor_bp">Harga Beli Kompetitor</string>
+    <string name="pse_bp_competitor_bp_date">Tanggal Beli Kompetitor</string>
+    <string name="pse_bp_hil_price">HJD Terakhir Holcim</string>
+    <string name="pse_bp_price_date">Tanggal HJD Terakhir Holcim</string>
+    <string name="pse_bv_comp_v">Volume Beli Kompetitor</string>
+    <string name="pse_bv_comp_v_date">Tanggal Beli Kompetitor</string>
+    <string name="pse_bv_hil_v">Volume Pembelian Bulan Lalu Holcim (Ton)</string>
+    <string name="pse_bv_note">Catatan:</string>
+    <string name="pse_bv_note_value">All other fields on this page are taken from last execution transaction</string>
+    <string name="pse_competitor_name">Nama Kompetitor</string>
+    <string name="pse_header_buying_price">HJD Terakhir Holcim</string>
+    <string name="pse_header_buying_volume">Volume Pembelian Bulan Lalu Holcim</string>
+    <string name="pse_header_inventory">Stok Terakhir Holcim</string>
+    <string name="pse_header_selling_price">HJT Terakhir Holcim</string>
+    <string name="pse_li_comp_inv">Stok Kompetitor</string>
+    <string name="pse_li_comp_inv_date">Tanggal Stok Kompetitor</string>
+    <string name="pse_li_hil_inv">Stok Terakhir Holcim (Ton)</string>
+    <string name="pse_li_hil_inv_date">Tanggal Stok Terakhir Holcim</string>
+    <string name="pse_sp_comp_sp">Harga Jual Kompetitor</string>
+    <string name="pse_sp_comp_sp_date">Tanggal Jual Kompetitor</string>
+    <string name="pse_sp_hil_sp">HJT Terakhir Holcim</string>
+    <string name="pse_sp_hil_sp_date">Tanggal HJT Terakhir Holcim</string>
+    <string name="reason_for_buying_from_lead_competitors">Alasan Membeli dari Penyalur</string>
+    <string name="reason_for_not_ordering_title">Mohon masukkan Alasan Toko Tidak Memesan</string>
+    <string name="reason_for_unsatisfied_experience">Alasan Pengalaman Tidak Memuaskan</string>
+    <string name="retailer">Retailer</string>
+    <string name="sales_info_title">Informasi Penjualan</string>
+    <string name="sales_title">Informasi Pasar</string>
+    <string name="save">Simpan</string>
+    <string name="sdcard_unmounted">Collect cannot access the SD card. Perhaps it is mounted via USB? (Current state: %s)</string>
+    <string name="select_an_org_title">Pilih server</string>
+    <string name="selected_retailer_title">Selected Retailer</string>
+    <string name="shop_sign_title">Papan Toko</string>
+    <string name="si_actual">Aktual Bulanan sampai Hari Ini (Ton)</string>
+    <string name="si_cap">Kapasitas Toko (ton/bulan)</string>
+    <string name="si_sow">Persentase Volume Holcim (%)</string>
+    <string name="si_target">Target Bulanan sampai Hari Ini (Ton)</string>
+    <string name="si_target_curr">Target Penjualan Bulanan (Ton)</string>
+    <string name="sign_in_pin_modal_error_message">PIN anda tidak sesuai</string>
+    <string name="sign_in_pin_modal_length_error_message">PIN anda harus terdiri dari 4 angka</string>
+    <string name="signin_activity_title">Signin</string>
+    <string name="signin_pin_introduction">Masukkan 4 angka untuk PIN anda</string>
+    <string name="ss_action">Penanganan</string>
+    <string name="ss_action_status">Status Penanganan</string>
+    <string name="ss_availability_hil">Status Papan Toko Holcim</string>
+    <string name="ss_cleanness">Kebersihan Papan Toko</string>
+    <string name="ss_color_condition">Warna Papan Toko</string>
+    <string name="ss_competitor_name">Nama Kompetitor</string>
+    <string name="ss_condition">Kondisi Papan Toko</string>
+    <string name="ss_inspection">Tanggal Inspeksi</string>
+    <string name="ss_physical">Kondisi Fisik</string>
+    <string name="ss_picture">Foto Papan Nama Toko</string>
+    <string name="ss_priority">Prioritas</string>
+    <string name="ss_remark">Catatan Papan Toko</string>
+    <string name="ss_type">Jenis Papan Toko</string>
+    <string name="ss_visibility_competitor">Posisi Papan Toko Kompetitor</string>
+    <string name="ss_visibility_hil">Posisi Papan Nama Toko</string>
+    <string name="status">Status</string>
+    <string name="sync">Sinkronisasi</string>
+    <string name="sync_button">Sinkronisasi</string>
+    <string name="sync_info_complete">Sinkronisasi Selesai</string>
+    <string name="sync_screen_message">Proses ini membutuhkan waktu tergantung besarnya data yang ditransfer dan kecepatan internet anda. Mohon agar tidak terputus dari internet atau menutup aplikasi anda agar penerimaan data dapat berjalan dengan baik.</string>
+    <string name="sync_title">Sinkronisasi</string>
+    <string name="tele_sale_title">Tele Sales</string>
+    <string name="tier_klb">Tier KLAB</string>
+    <string name="title_competitor_marketing">Informasi Pasar</string>
+    <string name="title_create_competitor_marketing">Buat Informasi Pasar</string>
+    <string name="title_create_feedback">Buat Saran dan Masukan</string>
+    <string name="title_create_preorder">Buat Pemesanan</string>
+    <string name="unplanned_visit">Unplanned Visit Baru</string>
+    <string name="unplanned_visit_error_account">Informasi toko tidak tersedia untuk Unplanned Visit.</string>
+    <string name="unplanned_visit_error_competitor">Informasi pasar kompetitor terakhir tidak tersedia untuk Unplanned Visit.</string>
+    <string name="unplanned_visit_error_contact">Informasi kontak tidak tersedia untuk Unplanned Visit.</string>
+    <string name="unplanned_visit_error_market">Informasi pasar Holcim terakhir tidak tersedia untuk Unplanned Visit.</string>
+    <string name="unplanned_visit_reason_error">Must select a reason</string>
+    <string name="unplanned_visit_reason_title">Alasan Unplanned Visit</string>
+    <string name="view_contacts">Melihat Daftar Kontak</string>
+    <string name="view_plan">Melihat Rencana Kunjungan</string>
+    <string name="visit_detail_title">Daftar Kunjungan Hari Ini</string>
+    <string name="warning">PERINGATAN</string>
+    <string name="warning_account_contact">Nama Toko harus diisi.</string>
+    <string name="warning_email_contact">Format email salah.</string>
+    <string name="warning_last_name_contact">Nama Belakang harus diisi.</string>
+    <string name="warning_phone_mobile">Mohon isi Nomor HP 1 atau Nomor Telepon 1.</string>
+    <string name="warning_telephone_mobile">Mohon isi Nomor HP 1 atau Nomor Telepon 1.</string>
+    <string name="you_are_about_to_close">You are about to close</string>
+</resources>
