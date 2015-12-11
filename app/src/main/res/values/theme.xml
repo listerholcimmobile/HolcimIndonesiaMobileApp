@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Holcim" parent="@android:style/Theme.Light">
+        <item name="android:scrollbarThumbHorizontal">@drawable/thumb</item>
+        <item name="android:scrollbarThumbVertical">@drawable/thumb</item>
+        <item name="android:scrollbarSize">1.75mm</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:windowTitleSize">85dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/HolcimWindowsTitleBackground</item>
+    </style>
+
+</resources>

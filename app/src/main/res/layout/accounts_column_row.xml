@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+    <TextView
+        android:id="@+id/acc_name"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_width="50dp"
+        android:layout_weight="1"
+        android:textStyle="bold" />`
+    <TextView
+        android:id="@+id/accjh_id"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_width="50dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/acckecamatan"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_weight="0.5" />
+
+
+</LinearLayout>

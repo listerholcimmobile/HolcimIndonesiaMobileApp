@@ -1,0 +1,27 @@
+TASK com.holcim.hsea id=19
+  ACTIVITY com.holcim.hsea/com.holcim.altimetrik.android.activities.HolcimSyncActivity 42051d10 pid=9142
+    Local Activity 423d5420 State:
+      mResumed=true mStopped=false mFinished=false
+      mLoadersStarted=true
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 404mcc40mnc en_US sw360dp w360dp h567dp nrml port finger -keyb/v/h -nav/h s.3}
+    FragmentManager misc state:
+      mCurState=5 mStateSaved=false mDestroyed=false
+
+  ACTIVITY com.holcim.hsea/com.holcim.altimetrik.android.activities.HolcimLoginActivity 42c52748 pid=9142
+    Local Activity 41f4c048 State:
+      mResumed=false mStopped=true mFinished=false
+      mLoadersStarted=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 404mcc40mnc en_US sw360dp w360dp h567dp nrml port finger -keyb/v/h -nav/h s.3}
+    FragmentManager misc state:
+      mCurState=3 mStateSaved=true mDestroyed=false
+
+  ACTIVITY com.holcim.hsea/com.holcim.altimetrik.android.activities.HolcimMainActivity 42db4220 pid=9142
+    Local Activity 4209ee18 State:
+      mResumed=false mStopped=true mFinished=false
+      mLoadersStarted=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 404mcc40mnc en_US sw360dp w360dp h567dp nrml port finger -keyb/v/h -nav/h s.3}
+    FragmentManager misc state:
+      mCurState=3 mStateSaved=true mDestroyed=false

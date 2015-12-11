@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimContactActivity"/>
+      <point      
+        x = "2376"      
+        y = "204"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimMyVisitPlanListActivity"/>
+      <point      
+        x = "256"      
+        y = "868"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimCameraActivity"/>
+      <point      
+        x = "1912"      
+        y = "1428"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimVisitDetailActivity"/>
+      <point      
+        x = "1072"      
+        y = "1184"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimCreateNewContactActivity"/>
+      <point      
+        x = "1364"      
+        y = "900"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimCreatePreorderActivity"/>
+      <point      
+        x = "1788"      
+        y = "588"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimSelectedRetailerActivity"/>
+      <point      
+        x = "1332"      
+        y = "584"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimSyncActivity"/>
+      <point      
+        x = "850"      
+        y = "450"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimLoginActivity"/>
+      <point      
+        x = "900"      
+        y = "500"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimCreateCompetitorMarketing"/>
+      <point      
+        x = "950"      
+        y = "550"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimSignIn"/>
+      <point      
+        x = "1000"      
+        y = "600"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimCreateFeedbackActivity"/>
+      <point      
+        x = "1050"      
+        y = "650"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimUnplannedVisitActivity"/>
+      <point      
+        x = "1100"      
+        y = "700"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimMainActivity"/>
+      <point      
+        x = "1150"      
+        y = "750"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimSplashScreen"/>
+      <point      
+        x = "1250"      
+        y = "850"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimShowContactInfo"/>
+      <point      
+        x = "1200"      
+        y = "800"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimMarketInfoActivity"/>
+      <point      
+        x = "1300"      
+        y = "900"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.holcim.altimetrik.android.activities.HolcimShowFeedbackActivity"/>
+      <point      
+        x = "1350"      
+        y = "950"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

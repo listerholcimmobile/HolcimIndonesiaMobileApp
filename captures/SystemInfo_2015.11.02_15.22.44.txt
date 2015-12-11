@@ -1,0 +1,103 @@
+Applications Graphics Acceleration Info:
+Uptime: 2403438 Realtime: 2403422
+
+** Graphics info for pid 9142 [com.holcim.hsea] **
+
+Recent DisplayList operations
+        DrawDisplayList
+          DrawDisplayList
+          DrawDisplayList
+            Save
+            SetupShader
+            DrawRoundRect
+            ResetShader
+            Save
+            ClipRect
+            SetupShader
+            DrawRoundRect
+            ResetShader
+            RestoreToCount
+            DrawText
+        DrawDisplayList
+  DrawDisplayList
+    Save
+    ClipRect
+    DrawDisplayList
+      Save
+      ClipRect
+      DrawDisplayList
+        DrawDisplayList
+          DrawPath
+          DrawPath
+          DrawDisplayList
+            DrawPath
+            DrawPath
+            DrawDisplayList
+              Save
+              ClipRect
+              DrawText
+              RestoreToCount
+          DrawDisplayList
+            Save
+            ClipRect
+            Translate
+            DrawText
+            RestoreToCount
+          DrawDisplayList
+            DrawDisplayList
+              DrawRoundRect
+              DrawRoundRect
+              Save
+              ClipRect
+              Translate
+              DrawText
+              RestoreToCount
+      RestoreToCount
+    RestoreToCount
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          2215288 / 25165824
+  LayerCache                  0 / 16777216
+  GradientCache            8192 /   524288
+  PathCache              479109 /  4194304
+  CircleShapeCache            0 /  1048576
+  OvalShapeCache              0 /  1048576
+  RoundRectShapeCache    947452 /  1048576
+  RectShapeCache              0 /  1048576
+  ArcShapeCache               0 /  1048576
+  TextDropShadowCache     20768 /  2097152
+  FontRenderer 0         524288 /   524288
+  FontRenderer 1         524288 /   524288
+  FontRenderer 2         524288 /   524288
+Other:
+  FboCache                    1 /       16
+  PatchCache                  4 /      512
+Total memory usage:
+  5243673 bytes, 5.00 MB
+
+Profile data in ms:
+
+	com.holcim.hsea/com.holcim.altimetrik.android.activities.HolcimMainActivity/android.view.ViewRootImpl@421b0a10
+	com.holcim.hsea/com.holcim.altimetrik.android.activities.HolcimLoginActivity/android.view.ViewRootImpl@422903a8
+	com.holcim.hsea/com.holcim.altimetrik.android.activities.HolcimSyncActivity/android.view.ViewRootImpl@423dddf0
+	com.holcim.hsea/com.holcim.altimetrik.android.activities.HolcimSyncActivity/android.view.ViewRootImpl@4341ac10
+View hierarchy:
+
+  com.holcim.hsea/com.holcim.altimetrik.android.activities.HolcimMainActivity/android.view.ViewRootImpl@421b0a10
+  26 views, 2.06 kB of display lists, 49 frames rendered
+
+  com.holcim.hsea/com.holcim.altimetrik.android.activities.HolcimLoginActivity/android.view.ViewRootImpl@422903a8
+  14 views, 0.74 kB of display lists, 133 frames rendered
+
+  com.holcim.hsea/com.holcim.altimetrik.android.activities.HolcimSyncActivity/android.view.ViewRootImpl@423dddf0
+  14 views, 1.23 kB of display lists, 3633 frames rendered
+
+  com.holcim.hsea/com.holcim.altimetrik.android.activities.HolcimSyncActivity/android.view.ViewRootImpl@4341ac10
+  45 views, 0.57 kB of display lists, 1 frames rendered
+
+
+Total ViewRootImpl: 4
+Total Views:        99
+Total DisplayList:  4.60 kB
+

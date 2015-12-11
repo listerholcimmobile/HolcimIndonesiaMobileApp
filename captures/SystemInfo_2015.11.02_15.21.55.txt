@@ -1,0 +1,35 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        42dd8718 com.holcim.hsea/com.holcim.altimetrik.android.activities.HolcimSplashScreen filter 42e6bb30
+ 
+Packages:
+  Package [com.holcim.hsea] (42286080):
+    userId=10136 gids=[3003, 1015, 1006, 1028]
+    sharedUser=null
+    pkg=Package{42f0b7b8 com.holcim.hsea}
+    codePath=/data/app/com.holcim.hsea-1.apk
+    resourcePath=/data/app/com.holcim.hsea-1.apk
+    nativeLibraryPath=/data/data/com.holcim.hsea/lib
+    versionCode=6
+    applicationInfo=ApplicationInfo{42f1ae98 com.holcim.hsea}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    versionName=1.3.0.20150515
+    dataDir=/data/data/com.holcim.hsea
+    targetSdk=15
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2015-11-02 15:18:45
+    firstInstallTime=2015-10-29 13:51:32
+    lastUpdateTime=2015-11-02 15:18:46
+    signatures=PackageSignatures{42286158 [422871b8]}
+    permissionsFixed=true haveGids=true
+    pkgFlags=0x0 installStatus=1 User 0:  stopped=false enabled=0
+    grantedPermissions:
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.USE_CREDENTIALS
+      android.permission.CAMERA
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.INTERNET
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_NETWORK_STATE

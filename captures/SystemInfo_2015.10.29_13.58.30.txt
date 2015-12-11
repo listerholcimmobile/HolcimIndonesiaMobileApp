@@ -1,0 +1,137 @@
+Applications Memory Usage (kB):
+Uptime: 5160761 Realtime: 9541927
+
+Total PSS by process:
+    53173 kB: com.motorola.homescreen (pid 1071)
+    45581 kB: system (pid 698)
+    32022 kB: com.google.android.apps.plus (pid 2821)
+    29621 kB: com.google.android.gms (pid 1561)
+    25066 kB: com.android.systemui (pid 883)
+    23377 kB: android.process.acore (pid 24409)
+    22454 kB: com.google.process.gapps (pid 1169)
+    18305 kB: com.google.android.music:main (pid 21310)
+    16739 kB: com.google.android.gms.persistent (pid 2399)
+    15876 kB: com.google.android.googlequicksearchbox:search (pid 31574)
+    15193 kB: android.process.media (pid 945)
+    14883 kB: com.motorola.blur.service.blur (pid 998)
+    14261 kB: com.google.android.apps.magazines (pid 32090)
+    12151 kB: com.android.vending (pid 31541)
+    11411 kB: com.amazon.fv (pid 2130)
+    11003 kB: com.motorola.widget.circlewidget3d (pid 2661)
+    10619 kB: com.motorola.process.system (pid 1015)
+    10255 kB: com.motorola.messaging (pid 31985)
+     9906 kB: com.android.phone (pid 985)
+     9377 kB: com.google.android.apps.maps (pid 14719)
+     9081 kB: com.motorola.contextual.smartrules (pid 27127)
+     8845 kB: com.android.contacts (pid 1008)
+     7624 kB: com.vcast.mediamanager (pid 31622)
+     6794 kB: com.android.chrome (pid 32073)
+     6739 kB: com.motorola.motoemail (pid 32016)
+     6420 kB: com.android.inputmethod.latin (pid 962)
+     6228 kB: com.adobe.air (pid 2581)
+     5686 kB: com.motorola.modemservice (pid 1039)
+     4804 kB: com.google.android.apps.uploader (pid 26897)
+     4569 kB: com.motorola.android.hostdeviceagent (pid 31683)
+     4381 kB: com.motorola.motoemail:moxierengine (pid 32033)
+     4346 kB: com.android.nfc (pid 1056)
+     4298 kB: com.google.android.talk (pid 31851)
+     3974 kB: com.motorola.MotGallery2 (pid 31507)
+     3914 kB: com.motorola.quickview (pid 24676)
+     3875 kB: com.fusionone.android.sync.service (pid 24637)
+     3867 kB: com.slacker.radio (pid 31762)
+     3497 kB: com.motorola.blur.setup (pid 32050)
+     3133 kB: com.google.android.gsf.login (pid 31875)
+     2925 kB: com.motorola.genie (pid 31730)
+     2825 kB: com.motorola.smartmode (pid 31525)
+     2671 kB: com.google.android.partnersetup (pid 31599)
+     2554 kB: com.motorola.camera (pid 32722)
+     2525 kB: com.android.defcontainer (pid 31668)
+     2190 kB: com.motorola.acousticwarning (pid 24376)
+     2169 kB: com.motorola.BackupAssistanceClient (pid 31968)
+     2167 kB: com.motorola.devicemanagement (pid 1450)
+     2105 kB: com.motorola.audioeffects (pid 24459)
+     2084 kB: com.android.smspush (pid 1204)
+     1945 kB: com.vzw.apnservice (pid 28940)
+
+Total PSS by OOM adjustment:
+    45581 kB: System
+               45581 kB: system (pid 698)
+    79351 kB: Persistent
+               25066 kB: com.android.systemui (pid 883)
+               14883 kB: com.motorola.blur.service.blur (pid 998)
+               10619 kB: com.motorola.process.system (pid 1015)
+                9906 kB: com.android.phone (pid 985)
+                8845 kB: com.android.contacts (pid 1008)
+                5686 kB: com.motorola.modemservice (pid 1039)
+                4346 kB: com.android.nfc (pid 1056)
+    53173 kB: Foreground
+               53173 kB: com.motorola.homescreen (pid 1071)
+    15254 kB: Visible
+               11003 kB: com.motorola.widget.circlewidget3d (pid 2661)
+                2167 kB: com.motorola.devicemanagement (pid 1450)
+                2084 kB: com.android.smspush (pid 1204)
+    10989 kB: Perceptible
+                6420 kB: com.android.inputmethod.latin (pid 962)
+                4569 kB: com.motorola.android.hostdeviceagent (pid 31683)
+    89007 kB: A Services
+               29621 kB: com.google.android.gms (pid 1561)
+               22454 kB: com.google.process.gapps (pid 1169)
+               16739 kB: com.google.android.gms.persistent (pid 2399)
+               11411 kB: com.amazon.fv (pid 2130)
+                6228 kB: com.adobe.air (pid 2581)
+                2554 kB: com.motorola.camera (pid 32722)
+    73609 kB: B Services
+               18305 kB: com.google.android.music:main (pid 21310)
+               15193 kB: android.process.media (pid 945)
+                9377 kB: com.google.android.apps.maps (pid 14719)
+                9081 kB: com.motorola.contextual.smartrules (pid 27127)
+                7624 kB: com.vcast.mediamanager (pid 31622)
+                3914 kB: com.motorola.quickview (pid 24676)
+                3875 kB: com.fusionone.android.sync.service (pid 24637)
+                2190 kB: com.motorola.acousticwarning (pid 24376)
+                2105 kB: com.motorola.audioeffects (pid 24459)
+                1945 kB: com.vzw.apnservice (pid 28940)
+   162544 kB: Background
+               32022 kB: com.google.android.apps.plus (pid 2821)
+               23377 kB: android.process.acore (pid 24409)
+               15876 kB: com.google.android.googlequicksearchbox:search (pid 31574)
+               14261 kB: com.google.android.apps.magazines (pid 32090)
+               12151 kB: com.android.vending (pid 31541)
+               10255 kB: com.motorola.messaging (pid 31985)
+                6794 kB: com.android.chrome (pid 32073)
+                6739 kB: com.motorola.motoemail (pid 32016)
+                4804 kB: com.google.android.apps.uploader (pid 26897)
+                4381 kB: com.motorola.motoemail:moxierengine (pid 32033)
+                4298 kB: com.google.android.talk (pid 31851)
+                3974 kB: com.motorola.MotGallery2 (pid 31507)
+                3867 kB: com.slacker.radio (pid 31762)
+                3497 kB: com.motorola.blur.setup (pid 32050)
+                3133 kB: com.google.android.gsf.login (pid 31875)
+                2925 kB: com.motorola.genie (pid 31730)
+                2825 kB: com.motorola.smartmode (pid 31525)
+                2671 kB: com.google.android.partnersetup (pid 31599)
+                2525 kB: com.android.defcontainer (pid 31668)
+                2169 kB: com.motorola.BackupAssistanceClient (pid 31968)
+
+Total PSS by category:
+   273235 kB: Dalvik
+    76674 kB: Unknown
+    46031 kB: .so mmap
+    44354 kB: .dex mmap
+    39526 kB: Other mmap
+    25624 kB: .apk mmap
+    23232 kB: Other dev
+      684 kB: Native
+       68 kB: Cursor
+       40 kB: .ttf mmap
+       38 kB: .jar mmap
+        2 kB: Ashmem
+
+Total PSS: 529508 kB
+      KSM: 0 kB saved from shared 0 kB
+           0 kB unshared; 0 kB volatile
+
+system_server Java Heap Size(in kB)
+        Maximum Heap:    65536
+          Total Heap:    30791
+           Free Heap:     6106

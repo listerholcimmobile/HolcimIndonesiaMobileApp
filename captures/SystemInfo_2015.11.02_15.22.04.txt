@@ -1,0 +1,47 @@
+Applications Memory Usage (kB):
+Uptime: 2362540 Realtime: 2362524
+
+** MEMINFO in pid 9142 [com.holcim.hsea] **
+                         Shared  Private     Heap     Heap     Heap
+                   Pss    Dirty    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------
+       Native       12       20       12    37160    11237      234
+       Dalvik    24722    14000    24448    36167    22376    13791
+       Cursor        0        0        0                           
+       Ashmem      320        0      320                           
+    Other dev     6328       52     6272                           
+     .so mmap     6201     2100     1516                           
+    .jar mmap        0        0        0                           
+    .apk mmap      179        0        0                           
+    .ttf mmap       35        0        0                           
+    .dex mmap     1340        0        0                           
+   Other mmap    10006      684      592                           
+      Unknown    12011      296    12008                           
+        TOTAL    61154    17152    45168    73327    33613    14025
+ 
+ Objects
+               Views:      156         ViewRootImpl:        4
+         AppContexts:        4           Activities:        3
+              Assets:        2        AssetManagers:        2
+       Local Binders:       18        Proxy Binders:       18
+    Death Recipients:        0
+     OpenSSL Sockets:        1
+ 
+ SQL
+         MEMORY_USED:      667
+  PAGECACHE_OVERFLOW:      339          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       40             22         1/16/2  /data/data/com.holcim.hsea/databases/webview.db
+         4      292            475  11774/7879/23  /data/data/com.holcim.hsea/databases/holcim-mobile-db
+ 
+ Jave Heap Size(in kB)
+        Maximum Heap:   262144
+          Total Heap:    36167
+           Free Heap:    13732
+
+system_server Java Heap Size(in kB)
+        Maximum Heap:    65536
+          Total Heap:    30599
+           Free Heap:     5808

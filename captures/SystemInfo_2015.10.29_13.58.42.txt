@@ -1,0 +1,375 @@
+Applications Graphics Acceleration Info:
+Uptime: 5175068 Realtime: 9556234
+
+** Graphics info for pid 1450 [com.motorola.devicemanagement] **
+
+** Graphics info for pid 883 [com.android.systemui] **
+
+Recent DisplayList operations
+      DrawDisplayList
+      DrawDisplayList
+      DrawDisplayList
+        Save
+        ClipRect
+        DrawDisplayList
+          DrawDisplayList
+            DrawDisplayList
+              DrawBitmapRect
+            DrawDisplayList
+              DrawBitmapRect
+          DrawDisplayList
+            DrawDisplayList
+              DrawDisplayList
+                DrawBitmapRect
+        DrawDisplayList
+          Save
+          Translate
+          DrawBitmapRect
+          RestoreToCount
+        RestoreToCount
+      DrawDisplayList
+        Save
+        ClipRect
+        Translate
+        DrawText
+        RestoreToCount
+      RestoreToCount
+  DrawDisplayList
+    DrawRect
+    DrawDisplayList
+      Save
+      ClipRect
+      DrawDisplayList
+      DrawDisplayList
+      DrawDisplayList
+        Save
+        ClipRect
+        DrawDisplayList
+          DrawDisplayList
+            DrawDisplayList
+              DrawBitmapRect
+          DrawDisplayList
+            DrawDisplayList
+              DrawDisplayList
+                DrawBitmapRect
+        DrawDisplayList
+        RestoreToCount
+      DrawDisplayList
+      RestoreToCount
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache           980128 / 25165824
+  LayerCache             196608 / 16777216
+  GradientCache            4096 /   524288
+  PathCache                   0 /  4194304
+  CircleShapeCache            0 /  1048576
+  OvalShapeCache              0 /  1048576
+  RoundRectShapeCache         0 /  1048576
+  RectShapeCache              0 /  1048576
+  ArcShapeCache               0 /  1048576
+  TextDropShadowCache         0 /  2097152
+  FontRenderer 0         524288 /   524288
+  FontRenderer 1              0 /        0
+  FontRenderer 2         524288 /   524288
+Other:
+  FboCache                    4 /       16
+  PatchCache                 64 /      512
+Total memory usage:
+  2229408 bytes, 2.13 MB
+
+Profile data in ms:
+
+	StatusBar/android.view.ViewRootImpl@42584918
+	SearchPanel/android.view.ViewRootImpl@4261e290
+	NavigationBar/android.view.ViewRootImpl@4261fcb0
+	RecentsPanel/android.view.ViewRootImpl@42637f20
+View hierarchy:
+
+  StatusBar/android.view.ViewRootImpl@42584918
+  98 views, 1.98 kB of display lists, 2456 frames rendered
+
+  SearchPanel/android.view.ViewRootImpl@4261e290
+  4 views, 0.00 kB of display lists, 0 frames rendered
+
+  NavigationBar/android.view.ViewRootImpl@4261fcb0
+  34 views, 0.50 kB of display lists, 389 frames rendered
+
+  RecentsPanel/android.view.ViewRootImpl@42637f20
+  8 views, 0.08 kB of display lists, 30 frames rendered
+
+
+Total ViewRootImpl: 4
+Total Views:        144
+Total DisplayList:  2.57 kB
+
+
+** Graphics info for pid 962 [com.android.inputmethod.latin] **
+
+** Graphics info for pid 1204 [com.android.smspush] **
+
+** Graphics info for pid 985 [com.android.phone] **
+
+** Graphics info for pid 2399 [com.google.android.gms.persistent] **
+
+** Graphics info for pid 1169 [com.google.process.gapps] **
+
+** Graphics info for pid 698 [system] **
+
+Recent DisplayList operations
+        DrawDisplayList
+        DrawDisplayList
+          DrawDisplayList
+            DrawDisplayList
+              DrawBitmapRect
+            DrawDisplayList
+              DrawBitmapRect
+            DrawDisplayList
+              DrawBitmapRect
+            DrawDisplayList
+            DrawDisplayList
+              DrawDisplayList
+                DrawBitmapRect
+              DrawDisplayList
+                Translate
+                Save
+                ClipRect
+                DrawText
+                RestoreToCount
+            DrawDisplayList
+            DrawDisplayList
+          DrawDisplayList
+            Translate
+            Save
+            ClipRect
+            DrawText
+            RestoreToCount
+      DrawColor
+      Save
+      Translate
+      DrawDisplayList
+        DrawDisplayList
+          DrawBitmapRect
+        DrawDisplayList
+          DrawBitmapRect
+        DrawDisplayList
+          DrawBitmapRect
+        DrawDisplayList
+        DrawDisplayList
+          DrawDisplayList
+            DrawBitmapRect
+          DrawDisplayList
+            Translate
+            Save
+            ClipRect
+            DrawText
+            RestoreToCount
+        DrawDisplayList
+        DrawDisplayList
+      RestoreToCount
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          4208212 / 25165824
+  LayerCache                  0 / 16777216
+  GradientCache               0 /   524288
+  PathCache                   0 /  4194304
+  CircleShapeCache            0 /  1048576
+  OvalShapeCache              0 /  1048576
+  RoundRectShapeCache         0 /  1048576
+  RectShapeCache              0 /  1048576
+  ArcShapeCache               0 /  1048576
+  TextDropShadowCache         0 /  2097152
+  FontRenderer 0         524288 /   524288
+  FontRenderer 1              0 /        0
+  FontRenderer 2        1048576 /  1048576
+Other:
+  FboCache                    1 /       16
+  PatchCache                  0 /      512
+Total memory usage:
+  5781076 bytes, 5.51 MB
+
+Profile data in ms:
+
+	Keyguard/android.view.ViewRootImpl@425275c0
+View hierarchy:
+
+  Keyguard/android.view.ViewRootImpl@425275c0
+  1 views, 0.01 kB of display lists, 4158 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        1
+Total DisplayList:  0.01 kB
+
+
+** Graphics info for pid 1015 [com.motorola.process.system] **
+
+** Graphics info for pid 2581 [com.adobe.air] **
+
+** Graphics info for pid 32722 [com.motorola.camera] **
+
+** Graphics info for pid 2821 [com.google.android.apps.plus] **
+
+** Graphics info for pid 1561 [com.google.android.gms] **
+
+** Graphics info for pid 32090 [com.google.android.apps.magazines] **
+
+** Graphics info for pid 32073 [com.android.chrome] **
+
+** Graphics info for pid 2130 [com.amazon.fv] **
+
+** Graphics info for pid 32016 [com.motorola.motoemail] **
+
+** Graphics info for pid 32050 [com.motorola.blur.setup] **
+
+** Graphics info for pid 31985 [com.motorola.messaging] **
+
+** Graphics info for pid 26897 [com.google.android.apps.uploader] **
+
+** Graphics info for pid 945 [android.process.media] **
+
+** Graphics info for pid 31968 [com.motorola.BackupAssistanceClient] **
+
+** Graphics info for pid 32033 [com.motorola.motoemail:moxierengine] **
+
+** Graphics info for pid 24409 [android.process.acore] **
+
+** Graphics info for pid 31541 [com.android.vending] **
+
+** Graphics info for pid 31875 [com.google.android.gsf.login] **
+
+** Graphics info for pid 31668 [com.android.defcontainer] **
+
+** Graphics info for pid 31851 [com.google.android.talk] **
+
+** Graphics info for pid 27127 [com.motorola.contextual.smartrules] **
+
+** Graphics info for pid 31762 [com.slacker.radio] **
+
+** Graphics info for pid 31574 [com.google.android.googlequicksearchbox:search] **
+
+** Graphics info for pid 31525 [com.motorola.smartmode] **
+
+** Graphics info for pid 31507 [com.motorola.MotGallery2] **
+
+** Graphics info for pid 31730 [com.motorola.genie] **
+
+** Graphics info for pid 31599 [com.google.android.partnersetup] **
+
+** Graphics info for pid 14719 [com.google.android.apps.maps] **
+
+** Graphics info for pid 31683 [com.motorola.android.hostdeviceagent] **
+
+** Graphics info for pid 31622 [com.vcast.mediamanager] **
+
+** Graphics info for pid 2661 [com.motorola.widget.circlewidget3d] **
+
+** Graphics info for pid 1071 [com.motorola.homescreen] **
+
+Recent DisplayList operations
+                  DrawDisplayList
+                    Save
+                    ConcatMatrix
+                    DrawBitmapRect
+                    RestoreToCount
+                  RestoreToCount
+                DrawDisplayList
+                  DrawPatch
+                  Translate
+                  Save
+                  ClipRect
+                  Translate
+                  DrawText
+                  RestoreToCount
+                DrawDisplayList
+                  DrawPatch
+                  DrawDisplayList
+                    DrawPatch
+                    DrawDisplayList
+                      DrawDisplayList
+                        Translate
+                        Save
+                        ClipRect
+                        Translate
+                        DrawText
+                        RestoreToCount
+              DrawDisplayList
+                DrawPatch
+                Save
+                Translate
+                DrawBitmapRect
+                RestoreToCount
+                Save
+                ClipRect
+                Translate
+                SetupShadow
+                ResetShadow
+                RestoreToCount
+            DrawDisplayList
+              DrawDisplayList
+                Translate
+                Save
+                ClipRect
+                DrawDisplayList
+                  Save
+                  ClipRect
+                  DrawDisplayList
+                    DrawLayer
+                  RestoreToCount
+                RestoreToCount
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          2768244 / 25165824
+  LayerCache            9322496 / 16777216
+  GradientCache            4096 /   524288
+  PathCache                   0 /  4194304
+  CircleShapeCache            0 /  1048576
+  OvalShapeCache              0 /  1048576
+  RoundRectShapeCache         0 /  1048576
+  RectShapeCache              0 /  1048576
+  ArcShapeCache               0 /  1048576
+  TextDropShadowCache    316503 /  2097152
+  FontRenderer 0         524288 /   524288
+  FontRenderer 1              0 /        0
+  FontRenderer 2         524288 /   524288
+Other:
+  FboCache                    2 /       16
+  PatchCache                 29 /      512
+Total memory usage:
+  13459915 bytes, 12.84 MB
+
+Profile data in ms:
+
+	com.motorola.homescreen/com.motorola.homescreen.Launcher/android.view.ViewRootImpl@427362e0
+View hierarchy:
+
+  com.motorola.homescreen/com.motorola.homescreen.Launcher/android.view.ViewRootImpl@427362e0
+  329 views, 16.53 kB of display lists, 4403 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        329
+Total DisplayList:  16.53 kB
+
+
+** Graphics info for pid 998 [com.motorola.blur.service.blur] **
+
+** Graphics info for pid 28940 [com.vzw.apnservice] **
+
+** Graphics info for pid 21310 [com.google.android.music:main] **
+
+** Graphics info for pid 24676 [com.motorola.quickview] **
+
+** Graphics info for pid 24637 [com.fusionone.android.sync.service] **
+
+** Graphics info for pid 24459 [com.motorola.audioeffects] **
+
+** Graphics info for pid 24376 [com.motorola.acousticwarning] **
+
+** Graphics info for pid 1039 [com.motorola.modemservice] **
+
+** Graphics info for pid 1008 [com.android.contacts] **
+
+** Graphics info for pid 1056 [com.android.nfc] **
