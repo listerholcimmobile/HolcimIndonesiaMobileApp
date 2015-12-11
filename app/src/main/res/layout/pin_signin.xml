@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_signin_introduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:text="@string/signin_pin_introduction"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/holcim_red" />
+
+        <EditText
+            android:id="@+id/edt_pin"
+            style="@style/PinEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/tv_reenter_pin_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:text="@string/confirm_signin_pin_introduction"
+            android:textColor="@color/holcim_red" />
+
+        <EditText
+            android:id="@+id/edt_confirm_pin"
+            style="@style/PinEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_confrim_pin_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/confirm_button"
+            android:minWidth="100dp"
+            android:padding="5dp"
+            android:text="@string/btn_confirm_signin_pin_introduction"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/linearlayout_footer"
+        layout="@layout/footer" />
+
+</RelativeLayout>

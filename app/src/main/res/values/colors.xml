@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#D9D9D9</color>
+    <color name="dark_grey">#696969</color>
+    <color name="transparent_grey">#29000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="salesforce_login_blue">#2795D1</color>
+    <color name="trans_camera">#80000000</color>
+    <color name="grey_box_camera">#7d7f85</color>
+    <color name="light_grey">#a8a8a8</color>
+    <color name="grey_audio">#535b61</color>
+    <color name="holcim_red">#ec1c24</color>
+    <color name="holcim_red_pressed">#a51319</color>
+    <color name="holcim_red_pressed_border">#8d1015</color>
+
+</resources>
