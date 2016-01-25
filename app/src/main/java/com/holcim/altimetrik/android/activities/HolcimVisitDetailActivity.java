@@ -204,12 +204,24 @@ public class HolcimVisitDetailActivity extends HolcimCustomActivity {
 				// klb
 				textViewTierKLB.setText(salesExcecutionList.get(position)
 						.getTierKLAB());
+			}else{
+				if (salesExcecutionList.get(position)
+						.getAccountName()!=null){
+					textViewRetailer.setText(salesExcecutionList.get(position)
+							.getAccountName());
+				}if(salesExcecutionList.get(position)
+						.getTierKLAB()!=null){
+					// klb
+					textViewTierKLB.setText(salesExcecutionList.get(position)
+							.getTierKLAB());
+				}
 			}
 			if (salesExcecutionList != null
 					&& salesExcecutionList.get(position) != null) {
 				// Kecamatan
 				textViewAddress.setText(salesExcecutionList.get(position)
 						.getKecamatan());
+
 			}
 
 			if (salesExcecutionList.get(position).getUnplannedVisitReason() != null

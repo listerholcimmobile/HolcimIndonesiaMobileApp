@@ -1766,31 +1766,34 @@ public class HolcimDataSource {
                     if (saleExecution.getContactSFId() != null) {
                         try {
                             Contact contact = HolcimDataSource.getContactBySFId(saleExecution.getContactSFId());
-                            if (AltimetrikFileHandler.isFileExist(contact.getTempPictureFilePath(context))) {
+//                            checking null to enable button for tso user
+                            if(contact!=null) {
+                                if (AltimetrikFileHandler.isFileExist(contact.getTempPictureFilePath(context))) {
 //                            if (AltimetrikFileHandler.isFileExist(null)) {
-                                if (contact.isPictureFileExist(context)) {
-                                    AltimetrikFileHandler fileHandler = new AltimetrikFileHandler(context);
-                                    try {
-                                        fileHandler.moveFile(contact.getTempPictureFilePath(context), HolcimDataSource.getContactDir(context) + File.separator + contact.getPictureFileName());
-                                        // AltimetrikFileHandler.DeleteFile(contact.getPicturePath(context));
-                                        // AltimetrikFileHandler.renameFile(HolcimDataSource.getContactDir(context) + File.separator + contact.getTempPictureFileName(context), HolcimDataSource.getContactDir(context) + File.separator + contact.getPictureFileName());
-                                        contact.setPicturemd5(HolcimDataSource.getContactDir(context) + File.separator + contact.getTempPictureFileName(context));
-                                    } catch (Exception e) {
+                                    if (contact.isPictureFileExist(context)) {
+                                        AltimetrikFileHandler fileHandler = new AltimetrikFileHandler(context);
+                                        try {
+                                            fileHandler.moveFile(contact.getTempPictureFilePath(context), HolcimDataSource.getContactDir(context) + File.separator + contact.getPictureFileName());
+                                            // AltimetrikFileHandler.DeleteFile(contact.getPicturePath(context));
+                                            // AltimetrikFileHandler.renameFile(HolcimDataSource.getContactDir(context) + File.separator + contact.getTempPictureFileName(context), HolcimDataSource.getContactDir(context) + File.separator + contact.getPictureFileName());
+                                            contact.setPicturemd5(HolcimDataSource.getContactDir(context) + File.separator + contact.getTempPictureFileName(context));
+                                        } catch (Exception e) {
+                                        }
+                                    } else {
+                                        try {
+                                            AltimetrikFileHandler fileHandler = new AltimetrikFileHandler(context);
+                                            fileHandler.moveFile(contact.getTempPictureFilePath(context), HolcimDataSource.getContactDir(context) + File.separator + contact.getPictureFileName());
+                                            AltimetrikFileHandler.renameFile(HolcimDataSource.getContactDir(context) + File.separator + contact.getTempPictureFileName(context), HolcimDataSource.getContactDir(context) + File.separator + contact.getPictureFileName());
+                                            contact.setPicturemd5(HolcimDataSource.getContactDir(context) + File.separator + contact.getTempPictureFileName(context));
+                                        } catch (Exception e) {
+                                        }
                                     }
                                 } else {
-                                    try {
-                                        AltimetrikFileHandler fileHandler = new AltimetrikFileHandler(context);
-                                        fileHandler.moveFile(contact.getTempPictureFilePath(context), HolcimDataSource.getContactDir(context) + File.separator + contact.getPictureFileName());
-                                        AltimetrikFileHandler.renameFile(HolcimDataSource.getContactDir(context) + File.separator + contact.getTempPictureFileName(context), HolcimDataSource.getContactDir(context) + File.separator + contact.getPictureFileName());
-                                        contact.setPicturemd5(HolcimDataSource.getContactDir(context) + File.separator + contact.getTempPictureFileName(context));
-                                    } catch (Exception e) {
-                                    }
+                                    contact.setPicturemd5(contact.getPicturePath(context));
                                 }
-                            } else {
-                                contact.setPicturemd5(contact.getPicturePath(context));
+                                contact.setIsEdited(true);
+                                HolcimApp.daoSession.update(contact);
                             }
-                            contact.setIsEdited(true);
-                            HolcimApp.daoSession.update(contact);
 
                         } catch (HolcimException e) {
                             e.printStackTrace();
